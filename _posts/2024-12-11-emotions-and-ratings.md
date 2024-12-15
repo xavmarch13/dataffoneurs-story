@@ -7,13 +7,27 @@ tags: featured
 ---
 Background on sentiment analysis?
 
-How do emotion affect movie's successes? 
 
-To answer the myriad of following questions, and after having performed an exhaustive sentiment analysis on the film's summaries, we embark on a journey to decipher how sentiments affects a movie's success (in terms of user ratings). Having divided the movies into 20 timesteps, each with a emotion score for each of 7 emotions, we can plunge in depth in analysing how and to what extent the presence of emotions is decisive/causal/significant.
+## Introduction
 
-What sentiments do we seek to find in the big screens/in movies? What are the imperative emotional ingredients needed to satiate our soul's/mind's/hearts cinematographic hunger?
+The essence of cinema lies in its ability to evoke and explore the depths of human emotion, serving as a mirror to our shared experiences and inner lives. Emotions in movies transcend mere storytelling, becoming a universal language that connects us to characters, moments, and each other. They reveal the complexities of existence, illuminating joy, sorrow, love, and conflict in ways that words alone cannot. 
 
-By calculating the mean value for each emotion across all timesteps for each movie, determining which emotion has the highest mean value and naming this the movie's dominant emotion, we can see how the mean rating differs among this classification. We then attempt to answer to the questions: "Do movies with different dominant emotions have different average ratings?"
+In this section, we embark on a journey to decipher/unravel the intricate relationship between emotions and a movie's success, focusing specifically on how they influence viewer ratings. Delving deeper, we seek to uncover not only the presence of emotions but also their dynamics — exploring how these emotional elements contribute to shaping audience reception and appraisal.
+Through this lens, we aim to illuminate the emotional alchemy that lies at the heart of cinematic triumph.
+
+
+In the following we will attempt to provide an intuition to the myriad of questions such as:
+- What emotions do we seek to experience on the big screen? What are the essential emotional ingredients required to satisfy our soul’s cinematic hunger?
+- Does a more varied emotional journey lead to higher ratings? Do movies with multiple emotions expressed throughout the story garner higher success?
+- MORE !!!!
+
+## The Influence of Emotions in a Movie's Success
+
+<br />
+
+### Do movies with different dominant emotions have different average ratings?
+
+We observe how the mean ratings differ between movies classified by their dominant emotion. (clarification?)
 
 <iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/mean_rating_per_dominant_emotion.html" 
     width="100%" 
@@ -23,24 +37,22 @@ By calculating the mean value for each emotion across all timesteps for each mov
     style="overflow: hidden; min-width: 800px;">
 </iframe>
 
-As we can see from these results, and while also performing a one-way ANOVA test (result??), these findings suggest that while emotional content does influence movie ratings, the differences are relatively modest (all means are within about 0.5 points of each other). The statistical significance likely comes from the large sample size rather than large practical differences in ratings.
+The analysis, including a one-way ANOVA test, reveals statistically significant differences in movie ratings across different dominant emotions (F = 19.945, p < 0.001). Movies dominated by sadness tend to receive the highest average ratings, followed by joy and anger. Films where fear is the dominant emotion received the lowest average ratings. Thus, a movie's dominant emotion does have a meaningful relationship with how audiences rate it.
 
+(! do more in detail: Using sampling techniques to balance the dataset)
 (Comment on results of dominant_emotion_rating and one-way ANOVA per continent? Europe not significant, NA significant - maybe due to large sample size)
 
-Therefore, rather than attempting to classify movies according to their dominant emotion, we seek to answer a more detailed question.
-(shall try to narrow down/characterise our analysis in a more detailed manner to try to find some robust results.)
+Serious, emotionally heavy films frequently tackle complex social issues and human conditions, and so are often viewed as more "meaningful".
 
-Looking now at emotional variety, to what extend multiple emotions are expressed throughout a story.
+Although these findings suggest that a movie's dominant emotion does influence movie ratings, the differences are relatively modest, hinting that the emotional landscape of cinema resists such simple categorization. Therefore, we adopt a more detailed approach and delve deeper into emotional diversity, that is, to what extend multiple emotions are expressed throughout a story.
 
-Does a more varied emotional journey lead to higher ratings? Do movies with multiple emotions expressed throughout the story garner higher success?
+### Emotional Arcs and Success: Does a More Varied Emotional Journey Lead to Greater Success?
 
-Do movies with greater emotional diversity  attract larger audiences or have better movie ratings? What is the impact of having many emotions expressed significantly rather than having lesser dominant emotions? Do certain emotion arcs archetypes play a particularly significant role in determining a movie's success?
 
-A possible (??) hypothesis is that movies with more varied emotional arcs resonate with a broader audience compared to those that remain emotionally flat.
-
+One hypothesis is that movies with more dynamic and varied emotional arcs have a greater ability to resonate with a wider audience, in contrast to those with a more emotionally flat or one-dimensional narrative.
 
 To quantify "emotional diversity" in movies, we employed four distinct metrics:
-1. Shannon Entropy: Measures the overall balance of emotions throughout the movie - higher values      indicate a more even distribution across different emotions rather than dominance of just one or two
+1. Shannon Entropy: Measures the overall balance of emotions throughout the movie - higher values indicate a more even distribution across different emotions rather than dominance of just one or two
 2. Emotion Transitions: Counts how often the dominant emotion changes, capturing the dynamic shifts in emotional tone
 3. Emotion Variation: Measures the standard deviation of emotional intensities over time, showing how much emotions fluctuate
 4. Unique Dominant Emotions: Simply counts how many different emotions take the lead at some point in the movie
@@ -48,7 +60,7 @@ To quantify "emotional diversity" in movies, we employed four distinct metrics:
 
 <iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/correlation_general_diversity.html" 
     width="100%" 
-    height="700" 
+    height="425" 
     frameborder="0" 
     scrolling="no" 
     style="overflow: hidden; min-width: 800px;">
@@ -66,17 +78,30 @@ We decide to do this analysis by continental regions, to see if we can witness a
     style="overflow: hidden; min-width: 800px;">
 </iframe>
 
-Both Europe and North America show strong and significant results, implying these audiences appreciate emotional complexity (?) and diversity. South America possesses the strongest correlation coefficient among all regions, suggesting South American audiences highly value emotional variety. Finally, Asia presents mixed results, having weaker correlations overall and suggesting different emotional preferences compared to Western regions. LITERATURE REVIEW REFERENCE?
+The relationship between emotional diversity and movie ratings shows interesting geographical variations. 
+
+In Europe and North America, all metrics show consistent, statistically significant positive correlations with ratings. This suggests that Western audiences tend to rate movies more favorably when they feature more diverse emotional content.
+
+South America shows the strongest positive correlations among all continents. This indicates that South American audiences may be particularly appreciative of emotionally diverse films, with emotion transitions having the strongest impact on ratings. This likely reflects deep cultural roots in melodramatic storytelling, particularly through telenovelas. Telenovelas, which originated in Latin America, are characterized by intense emotional oscillations and dramatic transitions. 
+
+Asia presents an interesting case where emotion transitions show the strongest correlation with ratings, while other metrics have weaker relationships. This results reflect different cultural and cinematographic traditions, as in many East Asian countries, movies maintain consistent emotional tones within genres, e.g., consistent melancholy in many dramas, which may explain the unsignificant correlation with Shannon entropy.
 
 Oceania and Africa were excluded from this analysis as their limited sample size may affect the statistical power of it. 
 
-Cultural Implications
-   - Clear distinction between Western and non-Western markets
-   - Suggests different cultural preferences for emotional complexity
-   - Indicates need for region-specific approach in film emotional content
+### How do ratings distribute across different movie categories?
 
-We then perform a mixed effects analysis with emotional diversity, selecting a unique emotion diversity metric, the Shannon entropy. The aim is to show how emotional diversity affects ratings within each category.
+This accounts for movies that belong to multiple categories, as they are counted in each category they belong to. 
 
-The model shows a significant positive relationship between emotional diversity and ratings (coefficient = 0.643, p < 0.001). This indicates that, across all genres, higher emotional diversity tends to be associated with higher ratings
+<iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/mean_rating_by_category.html" 
+    width="100%" 
+    height="700" 
+    frameborder="0" 
+    scrolling="no" 
+    style="overflow: hidden; min-width: 800px;">
+</iframe>
 
-Horror shows the strongest relationship, with Action/Adventure and Thriller following closely. Family/Animation shows the weakest relationship. The strong positive coefficients across all genres suggest that emotional diversity generally enhances viewer ratings. Horror films show the strongest benefit from emotional diversity, despite having the lowest mean ratings. Family/Animation shows the weakest relationship, suggesting emotional consistency might be more important for this genre
+
+Dramas have the highest mean rating, which may reflect how this genre often deals with complex human experiences and social issues, as these films often explore universal themes (family, love, loss, identity) that resonate across cultural boundaries. (connection with dramas having more sadness -- dominant emotion with highest rating!)
+
+Horror films have the lowest mean rating, which can be attributed to the genre's polarizing nature - people tend to either love or hate horror. Additionnaly, there may exist a cultural stigma around horror as a "less serious" genre. 
+
