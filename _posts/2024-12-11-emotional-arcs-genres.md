@@ -31,21 +31,18 @@ Drama is the most common genre, accounting for the largest proportion at approxi
 
 To visualize emotional trajectories, we plotted the normalized emotional arcs for each genre over 20 timesteps. 
 
-
-### Dominant Emotion Shifts
-For anger:
 <iframe src="{{ site.baseurl }}/assets/plot\emotional_arcs_genres\Normalized_Evolution_of_Anger_across_Timesteps_for_Each_Genre.png" width="100%" height="600" frameborder="0"></iframe>
-For disgut:
+
 <iframe src="{{ site.baseurl }}/assets/plot\emotional_arcs_genres\Normalized_Evolution_of_Disgust_across_Timesteps_for_Each_Genre.png" width="100%" height="600" frameborder="0"></iframe>
-For Fear:
+
 <iframe src="{{ site.baseurl }}/assets/plot\emotional_arcs_genres\Normalized_Evolution_of_Fear_across_Timesteps_for_Each_Genre.png" width="100%" height="600" frameborder="0"></iframe>
-For joy:
+
 <iframe src="{{ site.baseurl }}/assets/plot\emotional_arcs_genres\Normalized_Evolution_of_Joy_across_Timesteps_for_Each_Genre.png" width="100%" height="600" frameborder="0"></iframe>
-For neutral:
+
 <iframe src="{{ site.baseurl }}/assets/plot\emotional_arcs_genres\Normalized_Evolution_of_Neutral_across_Timesteps_for_Each_Genre.png" width="100%" height="600" frameborder="0"></iframe>
-For surprise:
+
 <iframe src="{{ site.baseurl }}/assets/plot\emotional_arcs_genres\Normalized_Evolution_of_Surprise_across_Timesteps_for_Each_Genre.png" width="100%" height="600" frameborder="0"></iframe>
-For sadness:
+
 <iframe src="{{ site.baseurl }}/assets/plot\emotional_arcs_genres\Normalized_Evolution_of_Sadness_across_Timesteps_for_Each_Genre.png" width="100%" height="600" frameborder="0"></iframe>
 
 ### The Consistent Rhythm of Emotional Arcs Across Genres  
