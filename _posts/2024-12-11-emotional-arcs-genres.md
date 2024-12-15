@@ -4,8 +4,8 @@ title:  "Emotional Arcs in Movies: A Universal or Genre-Specific Trend?"
 weight:  2
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
-image: /assets/images/movie_genres.jpg
-image2: /assets/images/movie_genres.jpg
+image: /assets/images/movie_genres.jpeg
+image2: /assets/images/movie_genres.jpeg
 ---
 
 ## Introduction
