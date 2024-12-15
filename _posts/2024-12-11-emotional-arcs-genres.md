@@ -4,8 +4,8 @@ title:  "Emotional Arcs in Movies: A Universal or Genre-Specific Trend?"
 weight:  2
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
-image: /assets/images/movie_genres.jpeg
-image2: /assets/images/movie_genres.jpeg
+image: /assets/images/movies-genres-that-defined-era-then-died-out.avif
+image2: /assets/images/movies-genres-that-defined-era-then-died-out.avif
 ---
 
 ## Introduction
@@ -23,7 +23,7 @@ We used movie summaries from the CMU Movie Summary Corpus and supplemented them 
 Because of the astronomic number of genres in the data (about 360), we decided to handcraft a mapping to go down from 300 plus genres of movies to about a dozen. While our mapping may be a point of discussion among movie enthousiasts, we find it a good approximation to a more general genre classification. 
 
 ### 2. Genre distribution
-we can first take a look at the genres distribution in films.
+We can first take a look at the genres distribution in films.
 <iframe src="{{ site.baseurl }}/assets/plot\emotional_arcs_genres\distribution_movie_genres.png" width="100%" height="600" frameborder="0"></iframe>
 Drama is the most common genre, accounting for the largest proportion at approximately 26%. This is followed by comedy and thriller, which hold significant but smaller shares. The distribution suggests a diverse set of genres without a single dominant category, reflecting the varied preferences in cinematic storytelling. 
 
@@ -87,4 +87,4 @@ This distinction can be understood by examining the **storytelling conventions**
 
 ### **Conclusion**  
 
-The universality of emotions like anger, joy, and disgust reflects their foundational role in storytelling, while the variability of emotions like fear, sadness, and surprise highlights the creative flexibility filmmakers employ to craft genre-specific narratives. This balance between consistency and diversity in emotional arcs underscores the power of emotions in connecting with audiences, regardless of the genre. It’s this interplay that keeps movies engaging, whether they follow well-trodden paths or explore new emotional terrains.  
+The universality of emotions like anger, joy, and disgust reflects their foundational role in storytelling, while the variability of emotions like fear, sadness, and surprise highlights the creative flexibility filmmakers employ to craft genre-specific narratives.
