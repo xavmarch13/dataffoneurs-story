@@ -18,6 +18,10 @@ logo: false
 
 # blog cover
 cover: "/assets/images/615i3d9LojL.jpg"
+# how to show the image bigger in the header
+cover_size: cover # contain (default), cover
+#and how do I make it to not hide the cover when i gradually scroll down the page
+cover_hide: false
 
 name: 'DatAffoneurs'
 author: 'DatAffoneurs'
