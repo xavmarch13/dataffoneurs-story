@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Do Longer Movies Tell More Emotional Stories? Exploring Emotional Complexity in Runtime"
+title:  "2: Do Longer Movies Tell More Emotional Stories? Exploring Emotional Complexity in Runtime"
 weight:  2
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
