@@ -6,7 +6,7 @@ A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme
 
 Screenshots
 --------
-![screenshot](/assets/images/screenshot1.jpg)
+![screenshot](/assets/images/what-was-going-to-the-movies-like-in-the-70s-v0-1425950ka8cb1.webp)
 ![screenshot](/assets/images/screenshot2.jpg)
 ![screenshot](/assets/images/screenshot3.jpg)
 
