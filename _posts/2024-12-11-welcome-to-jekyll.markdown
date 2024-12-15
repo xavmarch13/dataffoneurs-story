@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cinema's Emotional Evolution: A Story of Innovation, Crisis, and Change"
+title:  "3. Cinema's Emotional Evolution: A Story of Innovation, Crisis, and Change"
 weight: 4
 categories: jekyll update
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
