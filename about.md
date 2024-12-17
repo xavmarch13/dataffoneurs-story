@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+title: false
 ---
 
 A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 

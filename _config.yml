@@ -4,21 +4,30 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "Behind the Curtains: The Emotional Arcs of Cinema"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   A Dataffoneurs Production: An Emotional Journey Through Cinema
 
 email: a-mail@mail.mail
 #blog logo
-logo: "/assets/images/df_logo.jpg"
-float_logo: true # true, false (default)
+#logo: "/assets/images/df_logo.jpg"
+float_logo: false # true, false (default) 
+# how to remove the logo from the header and use the site title instead
+logo: false
+
 
 # blog cover
-cover: "/assets/images/greatest-movies-of-all-time.avif"
+cover: "/assets/images/615i3d9LojL.jpg"
+# how to show the image bigger in the header
+cover_size: cover # contain (default), cover
+#and how do I make it to not hide the cover when i gradually scroll down the page
+cover_hide: false
 
 name: 'DatAffoneurs'
 author: 'DatAffoneurs'
-author_image: "/assets/images/author.jpg"
+#author_image: "/assets/images/author.jpg"
+#how to remove the author image from the header
+author_image: false
 
 paginate:	5
 
@@ -26,6 +35,8 @@ url: "https://xavmarch13.github.io"
 baseurl: "/dataffoneurs-story"
 #used to display twitter cards
 twitter_handle: '@dirkfabisch'
+#how to remove the twitter handle from the header
+twitter_handle: false
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname
@@ -61,3 +72,5 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+# how to remove the social icons from the header
+social: false
