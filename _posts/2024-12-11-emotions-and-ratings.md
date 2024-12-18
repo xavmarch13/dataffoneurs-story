@@ -7,10 +7,6 @@ categories: emotions and ratings
 tags: featured
 ---
 Background on sentiment analysis?
-
-
-## Introduction
-
 The essence of cinema lies in its ability to evoke and explore the depths of human emotion, serving as a mirror to our shared experiences and inner lives. Emotions in movies transcend mere storytelling, becoming a universal language that connects us to characters, moments, and each other. They reveal the complexities of existence, illuminating joy, sorrow, love, and conflict in ways that words alone cannot. 
 
 In this section, we embark on a journey to decipher/unravel the intricate relationship between emotions and a movie's success, focusing specifically on how they influence viewer ratings. Delving deeper, we seek to uncover not only the presence of emotions but also their dynamics — exploring how these emotional elements contribute to shaping audience reception and appraisal.
