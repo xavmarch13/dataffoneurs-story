@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "2: Do Longer Movies Tell More Emotional Stories? Exploring Emotional Complexity in Runtime"
-weight:  2
+title:  "Do Longer Movies Tell More Emotional Stories? Exploring Emotional Complexity in Runtime"
+weight:  5
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
 image: /assets/images/779-aurora-cinema.jpg
 image2: /assets/images/779-aurora-cinema.jpg
 ---
-
-## Introduction
 
 Movies have the power to evoke a spectrum of emotions, from joy and sadness to anger and surprise. But does the length of a movie influence how complex its emotional journey can be? In this analysis, we explored whether longer movies, with runtimes exceeding 2 hours, exhibit more intricate emotional arcs compared to their shorter counterparts. By analyzing emotional metrics derived from sentiment analysis, we investigated the relationship between runtime and emotional storytelling.
 

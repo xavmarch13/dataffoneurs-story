@@ -8,8 +8,6 @@ image: /assets/images/movie_theatre.jpg
 image2: /assets/images/movie_theatre.jpg
 ---
 
-## Introduction
-
 Movies are a universal language, capable of evoking powerful emotions that resonate with audiences across cultures and generations. Understanding how emotions are embedded in films can offer insights into their storytelling success, audience impact, and even their box office performance. To explore this, we embarked on a sentiment analysis journey by analyzing the text of movie summaries. This post outlines our methodology for mapping emotional dynamics in movies and highlights some of the fascinating insights we've uncovered.
 
 ## Methodology: Decoding Movie Emotions

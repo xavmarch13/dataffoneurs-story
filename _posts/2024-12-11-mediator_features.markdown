@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mediator Features"
-weight: 2
+weight: 9
 categories: mediator feature
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG

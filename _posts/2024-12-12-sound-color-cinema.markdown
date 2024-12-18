@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Babylon’s Emotional Revolution: How Sound, Color, and Crisis Reshaped Cinema"
-weight: 4
+weight: 6
 categories: jekyll update
 image: /assets/plots_alix/babylon-2022.png
 header_image: /assets/plots_alix/babylon-2022.png

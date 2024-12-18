@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "2: Emotional Arcs in Movies: A Universal or Genre-Specific Trend?"
-weight:  2
+title:  "Emotional Arcs in Movies: A Universal or Genre-Specific Trend?"
+weight:  4
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
 image: /assets/images/movies-genres-that-defined-era-then-died-out.avif
 image2: /assets/images/movies-genres-that-defined-era-then-died-out.avif
 ---
-
-## Introduction
 
 Emotions are the backbone of cinematic storytelling, captivating audiences and leaving lasting impressions. But do these emotional arcs follow universal patterns, or are they tailored to fit specific genres? In this post, we dive into emotional trajectories across different movie genres, using sentiment analysis to uncover whether genre dictates the emotional journey of a film.
 

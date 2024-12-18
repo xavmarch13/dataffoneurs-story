@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Analysis between emotions and ratings"
+weight: 7
 date:   2024-12-11 11:08:25
 categories: emotions and ratings
 tags: featured
