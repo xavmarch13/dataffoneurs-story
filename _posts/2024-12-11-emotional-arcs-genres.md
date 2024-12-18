@@ -144,9 +144,15 @@ The correlation was positive but weak (r ≈ 0.15), suggesting that while runtim
 Neo's analysis revealed that while longer movies tend to exhibit slightly more complex emotional arcs, runtime alone does not fully account for emotional storytelling.
 Neo reflected on this, thinking about how a movie’s emotional depth cannot be reduced to just its runtime. There’s more to the emotional storytelling—something hidden in the layers of the plot, the pacing, and the way the characters evolve.
 
+But there it is, Neo’s analysis is done. He's finished—for now. Or is he?
+
+<iframe src="{{ site.baseurl }}/assets\images\Trinity.webp" width="50%" height="350" frameborder="0"></iframe>
+Here comes Trinity. She’s not done yet. With a sharp look and a gun in hand, she’s demanding more. "Analysis. Do it by something other than genre. Now."
+
+Looks like Neo has no choice. He’s about to dive back in—whether he likes it or not.
 
 ## **Can we classify films by anything other than genre?**
-As Neo digs deeper into the data, the question arises: Can emotions help us discover hidden trends in movies? Are North American drama films emotionally similar to European thrillers? Let's dive into his analysis and see what emerges.
+As Neo dive back in the data, the question arises: Can emotions help us discover hidden trends in movies? Are North American drama films emotionally similar to European thrillers? Let's dive into his analysis and see what emerges.
 
 Neo starts by looking at the Elbow Method and Silhouette Score graphs, from whom he can draw a few conclusions about clustering films by emotion:
 
