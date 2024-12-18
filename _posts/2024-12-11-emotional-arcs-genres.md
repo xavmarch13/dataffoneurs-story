@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Emotional Arcs in Movies: A Universal or Genre-Specific Trend?"
+title:  "Neo's Journey Through Emotion: Uncovering Patterns in Film Sentiment"
 weight:  4
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
@@ -144,77 +144,89 @@ The correlation was positive but weak (r ≈ 0.15), suggesting that while runtim
 Neo's analysis revealed that while longer movies tend to exhibit slightly more complex emotional arcs, runtime alone does not fully account for emotional storytelling.
 Neo reflected on this, thinking about how a movie’s emotional depth cannot be reduced to just its runtime. There’s more to the emotional storytelling—something hidden in the layers of the plot, the pacing, and the way the characters evolve.
 
+
 ## **Can we classify films by anything other than genre?**
 As Neo digs deeper into the data, the question arises: Can emotions help us discover hidden trends in movies? Are North American drama films emotionally similar to European thrillers? Let's dive into his analysis and see what emerges.
 
-Neo takes a closer look at the data through clustering analysis. Each cluster represents a category of films that is emotionally dominated by one particular feeling. For example, cluster 1 is filled with films that evoke the most anger, cluster 2 showcases films that generate the most joy, and so on.
+Neo starts by looking at the Elbow Method and Silhouette Score graphs, from whom he can draw a few conclusions about clustering films by emotion:
+
+- **Elbow Method**: The graph shows a sharp drop in inertia from 2 to 4 clusters, followed by a more gradual decrease. The "elbow" appears around 4-5 clusters, suggesting that this is the optimal number for the dataset.
+
+- **Silhouette Score**: The scores, ranging from 0.13 to 0.17, indicate that the clusters overlap and aren't well-separated. The score peaks at 6-7 clusters, but declines sharply after that.
+
+Combining both methods:
+- The Elbow Method suggests 4-5 clusters for computational efficiency, while the Silhouette Score favors 6-7 for better-defined clusters.
+- This suggests that emotions in films overlap naturally, reflecting how movies often evoke multiple emotions at once.
+
+Neo finds that having 7 clusters fits perfectly for the analysis as each cluster represents a category of films that is emotionally dominated by one particular feeling. For example, cluster 1 is filled with films that evoke the most anger, cluster 2 showcases films that generate the most joy, and so on.
 
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/elbow_silhouette.html" width="100%" height="700" frameborder="0"></iframe>  
+
+Neo also plots the clustering through K-Means of the seven emotions in 3D for better visualization. (Analyse????)
+
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/pca_kmeans.html" width="100%" height="900" frameborder="0"></iframe>  
 
-Neo also brings in another insightful graph to better understand the data:
+Neo takes a closer look at the data through clustering analysis. 
 
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/barplot_highest_emotions.html" width="100%" height="800" frameborder="0"></iframe>  
 
 From here, Neo notices some interesting trends. Compared to the overall genre distribution, Action and Thriller films are overrepresented in clusters dominated by anger. In films where joy is most prevalent, there’s a notable overrepresentation of Drama, Romance, and Comedy films, while Thrillers and Horror films don’t show much joy. Comedy and Animation films tend to dominate when surprise is the most prominent emotion. Similar to cluster 2, films with high sadness are predominantly Drama and Romance. In cluster 5, which focuses on fear, Neo observes that Thrillers and Horror films are well-represented. Horror films also dominate when disgust is the most prevalent emotion. Finally, the cluster with the highest representation of Comedy, Family/Animation, and Fantasy-Sci-Fi films aligns with a more neutral emotional profile.
 
-
-We can observe that compared to the overall genre distribution, Action and Thriller films are overrepresented. In films where Joy is most prevalent, there is an overrepresentation of Drama, Romance, and Comedy films, while Thrillers and Horror films have noticeably less Joy. Comedy and Animation are overrepresented in films with a high level of Surprise. Similar to cluster 2, films with a high level of Sadness are predominantly Drama and Romance. In cluster 5, which contains films with the most Fear, Thrillers and Horror films are well-represented. Films with a high level of Disgust are mainly Horror films. Lastly, the cluster with the most Comedy, Family/Animation, and Fantasy-Sci-Fi films shows a significant presence of these genres.
-
-PTETRE FAUDRAIT DIVISER CHAQUE VALEUR PAR SA PROPORTION GLOBAL POUR AVOIR UN NOMBRE +- grand que 1
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/repartition_overall_and_cluster.html" width="100%" height="700" frameborder="0"></iframe>  
+Neo also looked at how each genre is partitioned between different cluster to better understand the overall distribution of clusters across categories. These graphs supports Neo's analysis from above.
+
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_per_category.html" width="100%" height="1600" frameborder="0"></iframe>  
 
-### Analysis of Cluster Distribution by Genre and Emotions
+## Analysis of Cluster Distribution by Genre and Emotions
 
-## Cluster 1 - Anger
+### Cluster 1 - Anger
 - **Highest proportion of anger**: *30.3% in Action/Adventure*, *26.5% in Thriller*.  
-- **Analysis**:  
+- **Neo's Analysis**:  
   Action and adventure films generate anger primarily through themes of conflict, rivalry, and injustice. Physical confrontations, chases, and revenge-driven plots are hallmarks of the genre, evoking strong emotional reactions.  
   In dramas, anger arises from frustration caused by unjust or tragic situations faced by the characters. This often reflects the audience's identification with societal, familial, or personal conflicts.
   ### Example: 
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_1.html" width="100%" height="700" frameborder="0"></iframe>  
 
-## Cluster 2 - Joy
+### Cluster 2 - Joy
 - **Highest proportion of joy**: *13.7% in Comedy*, *20% in Romance*.  
-- **Analysis**:  
+- **Neo's Analysis**:  
   While comedies aim to evoke joy, the proportion remains relatively low (13.7%), likely because humor is often intertwined with surprise or neutral elements, creating a mixed emotional experience.  
   In romances, joy is more prominent (20%) as these films focus on moments of happiness, fulfilled love, and positive resolutions of relational conflicts.
 
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_2.html" width="100%" height="700" frameborder="0"></iframe>  
 
-## Cluster 3 - Surprise
+### Cluster 3 - Surprise
 - **Highest proportion of surprise**: *11.3% in Family/Animation*, *9.89% in Comedy*.  
-- **Analysis**:  
+- **Neo's Analysis**:  
   Family/animation and fantasy/science fiction films thrive on imaginative worlds, unexpected plot twists, and visually spectacular elements. These genres cultivate curiosity and wonder, which are core components of surprise.  
   Plot reversals and magical or futuristic scenarios encourage viewers to explore new possibilities, evoking both surprise and fascination.
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_3.html" width="100%" height="700" frameborder="0"></iframe>  
 
 
-## Cluster 4 - Sadness
+### Cluster 4 - Sadness
 - **Highest proportion of sadness**: *20.7% in Romance*, *19.5% in Drama*.  
-- **Analysis**:  
+- **Neo's Analysis**:  
   Dramas delve into emotions of loss, hardship, and human sacrifice, often presenting realistic emotional conflicts that evoke authentic sadness in viewers.  
   Romances, while generating joy, also explore themes of heartbreak, unfulfilled love, or emotional dilemmas, leading to sadness when relational conflicts remain unresolved.
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_4.html" width="100%" height="700" frameborder="0"></iframe>  
 
 
-## Cluster 5 - Fear
+### Cluster 5 - Fear
 - **Highest proportion of fear**: *29.7% in Horror*, *20.2% in Thriller*, *19.2% in Fantasy/Sci-Fi*.  
-- **Analysis**:  
+- **Neo's Analysis**:  
   Horror films evoke primal fear and anxiety through themes of survival, imminent danger, or supernatural elements. Psychological theories suggest fear triggers strong physiological responses (adrenaline and muscle tension), enhancing audience immersion.  
   Thrillers induce a more cognitive form of fear, relying on suspense, hidden threats, and plot twists to maintain a state of tension and unease.
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_5.html" width="100%" height="700" frameborder="0"></iframe>  
 
-## Cluster 6 - Disgust
+### Cluster 6 - Disgust
 - **Highest proportion of disgust**: *30.3% in Horror*.  
-- **Analysis**:  
+- **Neo's Analysis**:  
   Horror films often elicit disgust through graphic, violent, or disturbing imagery. Disgust is tied to instinctual reactions of repulsion and self-preservation, amplifying the sensory impact of the viewing experience.
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_6.html" width="100%" height="700" frameborder="0"></iframe>  
 
-## Cluster 7 - Neutral
+### Cluster 7 - Neutral
 - **Highest proportion of neutrality**: *40.5% in Family/Animation*, *35.5% in Fantasy/Sci-Fi*.  
-- **Analysis**:  
+- **Neo's Analysis**:  
   Family and comedy films tend to avoid extreme emotions, opting for light, balanced narratives that are accessible to broader audiences. This emotional neutrality reflects a desire to provide positive experiences without overwhelming viewers.
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_7.html" width="100%" height="700" frameborder="0"></iframe>  
 
@@ -222,7 +234,7 @@ PTETRE FAUDRAIT DIVISER CHAQUE VALEUR PAR SA PROPORTION GLOBAL POUR AVOIR UN NOM
 
 ## General Conclusion
 
-The analysis of film clusters and their dominant emotions highlights a strong correlation between genres and emotional experiences, aligning with emotion theory:
+Neo's analysis of film clusters and their dominant emotions highlights a strong correlation between genres and emotional experiences, aligning with emotion theory:
 
 - **Negative Emotions** (anger, sadness, fear, disgust):  
   - Predominant in *drama*, *thriller*, and *horror* genres, which explore themes of tension, loss, and threat.  
@@ -236,4 +248,4 @@ The analysis of film clusters and their dominant emotions highlights a strong co
   - Associated with *family* and *comedy* films, neutrality allows for accessible, emotionally balanced content suited for a wide audience.  
 
 ### Summary  
-The clusters reflect an emotional specialization within film genres. Each genre serves a unique emotional purpose, eliciting specific psychological and physiological responses in viewers. This diversity underscores cinema's powerful ability to provoke varied and complex emotional reactions.  
+Neo concludes that the clusters reflect an emotional specialization within film genres. Each genre serves a unique emotional purpose, eliciting specific psychological and physiological responses in viewers. This diversity underscores cinema's powerful ability to provoke varied and complex emotional reactions.  
