@@ -42,7 +42,7 @@ As Neo steps back, the patterns become clear. Each box in the plot represents a 
 ### Time-series analysis
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/normalised_emotions_time_analysis.html
-" width="84%" height="500" frameborder="0"></iframe>
+" width="84%" height="500" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 #### Neo's Observations:
 1. *Initial Spike and Divergence*:
@@ -84,7 +84,7 @@ This pattern reflects the structure of many narratives, where lighter emotions p
 
 ### Average analysis
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="500" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 #### Neo’s Analysis: Emotional Averages Across Genres  
 As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how different genres evoke distinct emotional intensities. Here are his key insights:
@@ -105,7 +105,7 @@ As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how d
 
 To visualize emotional trajectories, Neo plotted the normalized emotional arcs for each genre over 20 timesteps. 
 
-<iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 
 ### The Consistent Rhythm of Emotional Arcs Across Genres    
@@ -155,7 +155,7 @@ As Neo steps out of the Matrix, he leaves us with a thought:
 
 ### Average analysis
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="500" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 Neo examines the heatmap of emotional intensity across continents, uncovering fascinating regional patterns:  
 
@@ -168,7 +168,7 @@ Neo examines the heatmap of emotional intensity across continents, uncovering fa
 
 Overall, African films exhibit high emotional intensity, North American films lean toward restraint, Asian cinema emphasizes contrasts with negative and positive emotions quite high, and European productions balance their emotional palette. These variations reflect cultural nuances in global storytelling.
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/emotionsvscontinents.html" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/emotionsvscontinents.html" width="100%" height="500" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 Neo made it possible to also visualize this on a map for better understanding.
 
@@ -195,7 +195,7 @@ When comparing emotional complexity metrics (amplitude, standard deviation, and 
 - Long movies showed slightly higher variability in emotional arcs, but the differences were modest.
 - Emotional complexity appeared to be influenced by factors beyond runtime, such as genre and storytelling style.
 
-<iframe src="{{ site.baseurl }}/assets/plot/emotional_arcs_in_movies\mean_emotional_variation.png" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/emotional_arcs_in_movies\mean_emotional_variation.png" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 These results were not enough for Neo to conclude that longer movies inherently have more variation in emotional arcs or a more complex storyline. He decided to dive deeper by analyzing each emotion individually.
 
@@ -203,7 +203,7 @@ These results were not enough for Neo to conclude that longer movies inherently 
 
 Neo computed the correlation between runtime and emotional complexity metrics for each emotion:
 
-<iframe src="{{ site.baseurl }}/assets\plot\emotional_arcs_in_movies\emotional_complexity_emotions.png" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets\plot\emotional_arcs_in_movies\emotional_complexity_emotions.png" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 The correlation varied depending on the emotion considered. The highest correlation was for disgust, suggesting that as the movie length increases, the variation in this emotion also increases, leading to more emotional complexity. There were notable differences in correlation for emotions like anger, disgust, joy, and neutral, while fear, sadness, and surprise showed very low correlation between runtime and emotional variation.
 
@@ -215,7 +215,7 @@ Neo reflected on this, thinking about how a movie’s emotional depth cannot be 
 
 But there it is, Neo’s analysis is done. He's finished—for now. Or is he?
 
-<iframe src="{{ site.baseurl }}/assets\images\Trinity.webp" width="50%" height="350" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets\images\Trinity.webp" width="50%" height="350" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 Here comes Trinity. She’s not done yet. With a sharp look and a gun in hand, she’s demanding more. "Analysis. Do it by something other than genre. Now."
 
 Looks like Neo has no choice. He’s about to dive back in—whether he likes it or not. 
@@ -245,35 +245,35 @@ Neo finds that having 7 clusters fits perfectly for the analysis as each cluster
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/elbow_silhouette.html" width="100%" height="700" frameborder="0"></iframe>  
+  <iframe src="{{ site.baseurl }}/assets/plot/cluster/elbow_silhouette.html" width="100%" height=430px frameborder="0"></iframe>
 
     {% capture markdown_content %}
 Neo also plots the clustering through K-Means of the seven emotions in 3D for better visualization. (Analyse????)
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/pca_kmeans.html" width="100%" height="900" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/pca_kmeans.html" width="100%" height="900" frameborder="0"></iframe> 
 
     {% capture markdown_content %}
 Neo takes a closer look at the data through clustering analysis. 
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/barplot_highest_emotions.html" width="100%" height="800" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/barplot_highest_emotions.html" width="100%" height="800" frameborder="0"></iframe>
 
     {% capture markdown_content %}
 From here, Neo notices some interesting trends. Compared to the overall genre distribution, Action and Thriller films are overrepresented in clusters dominated by anger. In films where joy is most prevalent, there’s a notable overrepresentation of Drama, Romance, and Comedy films, while Thrillers and Horror films don’t show much joy. Comedy and Animation films tend to dominate when surprise is the most prominent emotion. Similar to cluster 2, films with high sadness are predominantly Drama and Romance. In cluster 5, which focuses on fear, Neo observes that Thrillers and Horror films are well-represented. Horror films also dominate when disgust is the most prevalent emotion. Finally, the cluster with the highest representation of Comedy, Family/Animation, and Fantasy-Sci-Fi films aligns with a more neutral emotional profile.
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/repartition_overall_and_cluster.html" width="100%" height="700" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/repartition_overall_and_cluster.html" width="100%" height="700" frameborder="0"></iframe> 
 
     {% capture markdown_content %}
 Neo also looked at how each genre is partitioned between different cluster to better understand the overall distribution of clusters across categories. These graphs supports Neo's analysis from above.
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_per_category.html" width="100%" height="1600" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_per_category.html" width="100%" height="1600" frameborder="0"></iframe>
 
     {% capture markdown_content %}
 ## Analysis of Cluster Distribution by Genre and Emotions
@@ -286,7 +286,7 @@ In dramas, anger arises from frustration caused by unjust or tragic situations f
 ### Example: 
     {% endcapture %}
     {{ markdown_content | markdownify }}
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_1.html" width="100%" height="700" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_1.html" width="100%" height="700" frameborder="0"></iframe>
 
     {% capture markdown_content %}
 ### Cluster 2 - Joy
@@ -297,7 +297,7 @@ In romances, joy is more prominent (20%) as these films focus on moments of happ
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_2.html" width="100%" height="700" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_2.html" width="100%" height="700" frameborder="0"></iframe> 
 
     {% capture markdown_content %}
 ### Cluster 3 - Surprise
@@ -308,7 +308,7 @@ Plot reversals and magical or futuristic scenarios encourage viewers to explore 
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_3.html" width="100%" height="700" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_3.html" width="100%" height="700" frameborder="0"></iframe>
     
     {% capture markdown_content %}
 ### Cluster 4 - Sadness
@@ -319,7 +319,7 @@ Romances, while generating joy, also explore themes of heartbreak, unfulfilled l
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_4.html" width="100%" height="700" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_4.html" width="100%" height="700" frameborder="0"></iframe>
 
     {% capture markdown_content %}
 ### Cluster 5 - Fear
@@ -330,7 +330,7 @@ Thrillers induce a more cognitive form of fear, relying on suspense, hidden thre
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_5.html" width="100%" height="700" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_5.html" width="100%" height="700" frameborder="0"></iframe>
 
     {% capture markdown_content %}
 ### Cluster 6 - Disgust
@@ -340,7 +340,7 @@ Horror films often elicit disgust through graphic, violent, or disturbing imager
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_6.html" width="100%" height="700" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_6.html" width="100%" height="700" frameborder="0"></iframe>
 
     {% capture markdown_content %}
 ### Cluster 7 - Neutral
@@ -350,8 +350,7 @@ Family and comedy films tend to avoid extreme emotions, opting for light, balanc
     {% endcapture %}
     {{ markdown_content | markdownify }}
 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_7.html" width="100%" height="700" frameborder="0"></iframe>  
-
+<iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_7.html" width="100%" height="700" frameborder="0"></iframe>
   </div>
 </div>
 
@@ -421,6 +420,7 @@ Neo then categorized movies into two groups based on their runtime:
 This classification allowed him to compare emotional complexity between the two groups.
 <style>
 /* Dropdown container */
+/* Dropdown container */
 .dropdown-container-blue {
   position: relative;
   margin: 20px 0;
@@ -428,10 +428,10 @@ This classification allowed him to compare emotional complexity between the two 
 
 /* Dropdown button */
 .dropdown-btn-blue {
-  background-color:rgb(0, 8, 255);
+  background-color: rgb(0, 8, 255);
   color: white;
   padding: 10px 20px;
-  border: 4px solid rgb(0,8,255);
+  border: 4px solid rgb(0, 8, 255);
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -449,7 +449,29 @@ This classification allowed him to compare emotional complexity between the two 
 }
 
 .dropdown-btn-blue:hover {
-  background-color:rgb(4, 1, 158);
+  background-color: rgb(4, 1, 158);
+}
+
+/* Dropdown content */
+.dropdown-content-blue {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  text-align: left;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Center iframe specifically */
+.dropdown-content-blue iframe {
+  display: block;
+  margin: 20px auto; /* Center the iframe and add spacing */
+  max-width: 100%;
+  align-items: center;
+  align-text: center;
 }
 
 /* Dropdown button */
@@ -512,6 +534,8 @@ This classification allowed him to compare emotional complexity between the two 
 .dropdown-container-red.open .dropdown-content-red {
   display: block;
 }
+
+
 </style>
 
 <script>
