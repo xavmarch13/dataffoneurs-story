@@ -7,14 +7,24 @@ image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
 ## Can we classify films by anything other than genre?
-Can emotions help us see if different trends exist? Are North American drama films emotionally similar to European thrillers?
+Can emotions help us see if different trends exist? Can we categories film by their emotion et not by their genre?
 We'll find out in this section.
+<div class="row">
+    <div class="col-md-6">
+        <iframe src="{{ site.baseurl }}/assets/plot/cluster/pca_kmeans.html" 
+                style="width: 100%; height: 900px; border: none;"></iframe>
+    </div>
+    <div class="col-md-6">
+        <iframe src="{{ site.baseurl }}/assets/plot/cluster/barplot_highest_emotions.html" 
+                style="width: 100%; height: 900px; border: none;"></iframe>
+    </div>
+</div>
 
-JSP SI C'EST UTILE DE MONTRER LE SILHOUETTE 
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/elbow_silhouette.html" width="100%" height="700" frameborder="0"></iframe>  
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/pca_kmeans.html" width="100%" height="900" frameborder="0"></iframe>  
-Comme nous pouvons le voir avec le graphe suivant, chaque cluster représente la catégorie de film qui contient le plus d'une certaine émotion. Par exemple, le cluster 1 représente les films qui ont le plus de anger, le cluster 2 la catégorie de film qui ont le plus de joy, etc, etc.
-<iframe src="{{ site.baseurl }}/assets/plot/cluster/barplot_highest_emotions.html" width="100%" height="800" frameborder="0"></iframe>  
+
+<p> 
+    Comme nous pouvons le voir avec le graphe suivant, chaque cluster représente la catégorie de film qui contient le plus d'une certaine émotion. 
+    Par exemple, le cluster 1 représente les films qui ont le plus de <em>anger</em>, le cluster 2 la catégorie de film qui ont le plus de <em>joy</em>, etc.
+</p>
 On peut voir que par rapport à la distribution global des genres, les films d'Action et les Thrillers sont surreprésenté. Dans les films ou le Joy est le plus présent, on a une surreprésentation des films Drama et Romance et Comedy tandis que les thrillers et les films d'horreurs n'ont pas beaucoup de joy visiblement. La comedy et les animations sont sur-représenté dans les films avec beaucoup de surprise. Comme pour le cluster 2, les films avec beaucoup de sadness sont très principalement des films de Drama et de ROmance. Dans le cluster 5, le cluster des films avec le plus de fear, c'est les Thriller et les films d'horreur qui sont bien présents. Dans les films avec veaucoup de dégout, c'est principalement les films d'horeurs. et pour le dernier cluster, c'est principalement la comedy, le family/animation et le Fantasy-SCI.
 PTETRE FAUDRAIT DIVISER CHAQUE VALEUR PAR SA PROPORTION GLOBAL POUR AVOIR UN NOMBRE +- grand que 1
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/repartition_overall_and_cluster.html" width="100%" height="700" frameborder="0"></iframe>  
@@ -74,20 +84,31 @@ PTETRE FAUDRAIT DIVISER CHAQUE VALEUR PAR SA PROPORTION GLOBAL POUR AVOIR UN NOM
 
 ---
 
-## General Conclusion
+### **General Conclusion**
 
-The analysis of film clusters and their dominant emotions highlights a strong correlation between genres and emotional experiences, aligning with emotion theory:
+The analysis of film clusters and their dominant emotions reveals a strong correlation between film genres and emotional experiences, aligning closely with established emotion theories:
 
 - **Negative Emotions** (anger, sadness, fear, disgust):  
-  - Predominant in *drama*, *thriller*, and *horror* genres, which explore themes of tension, loss, and threat.  
-  - These emotions often provide catharsis for the audience and deepen immersion into the narrative.  
+  - These emotions are most prevalent in genres like *drama*, *thriller*, and *horror*, which frequently explore themes of tension, loss, and threat.  
+  - Such emotions provide a form of catharsis, allowing audiences to process and immerse themselves in intense and challenging narratives.
 
 - **Positive Emotions** (joy, surprise):  
-  - Prevalent in *comedy*, *romance*, and *family/animation* genres, which aim to create lighthearted, enjoyable, or awe-inspiring experiences.  
-  - Optimistic storytelling and visually enchanting worlds help stimulate positive emotional responses.
+  - Positive emotions dominate in *comedy*, *romance*, and *family/animation* genres, where the focus is on creating lighthearted, entertaining, and awe-inspiring experiences.  
+  - Optimistic storytelling, humorous elements, and visually engaging content stimulate joy and surprise, making these genres accessible and uplifting.
 
 - **Emotional Neutrality**:  
-  - Associated with *family* and *comedy* films, neutrality allows for accessible, emotionally balanced content suited for a wide audience.  
+  - Emotional neutrality is primarily associated with *family* and *comedy* films, which aim for emotional balance to cater to a broader audience.  
+  - This neutrality reflects a deliberate storytelling approach that avoids extreme emotions, prioritizing accessible narratives and enjoyable experiences.
 
-### Summary  
-The clusters reflect an emotional specialization within film genres. Each genre serves a unique emotional purpose, eliciting specific psychological and physiological responses in viewers. This diversity underscores cinema's powerful ability to provoke varied and complex emotional reactions.  
+---
+
+### **Summary of Observations**  
+The clustering analysis underscores the emotional "specialization" of film genres:  
+
+1. **Horror** and **thrillers** excel in evoking primal emotions like fear and disgust, creating suspenseful, high-stakes viewing experiences.  
+2. **Drama** and **romance** primarily explore sadness and anger, often through realistic depictions of personal or societal struggles.  
+3. **Comedy** and **family/animation** films evoke joy and emotional neutrality, offering escapism and lighthearted entertainment.  
+4. **Fantasy/Sci-Fi** genres highlight surprise and neutrality, as they immerse viewers in imaginative and visually spectacular worlds.  
+
+---
+

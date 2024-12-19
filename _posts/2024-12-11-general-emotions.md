@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "Mapping Movie Emotions: Sentiment Analysis in Film Summaries"
+title:  "Genre and continent distinction, Mapping Movie Emotions: Sentiment Analysis in Film Summaries bis"
 weight:  3
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
 image: /assets/images/movie_theatre.jpg
 image2: /assets/images/movie_theatre.jpg
 ---
-
-## Introduction
 
 Come and dive in with us in the tornado of movie emotions ! We will be analyzing emotions intensity, their evolution and many more in general and through many genre and continents !
 
