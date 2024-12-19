@@ -24,7 +24,9 @@ Neo delves into the Matrix of Emotions to uncover the answers, guiding us throug
 
 ### Average analysis
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="84%" height="500" frameborder="0"></iframe>
+
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="100%" height="625" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
+
 Peering at the boxplot data, Neo begins his analysis:
 
 #### Neo’s Observations:
@@ -42,7 +44,7 @@ As Neo steps back, the patterns become clear. Each box in the plot represents a 
 ### Time-series analysis
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/normalised_emotions_time_analysis.html
-" width="84%" height="500" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+" width="95%" height="625" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
 
 #### Neo's Observations:
 1. *Initial Spike and Divergence*:
@@ -84,7 +86,7 @@ This pattern reflects the structure of many narratives, where lighter emotions p
 
 ### Average analysis
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="500" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="625" frameborder="0" style=" border-left: 170px solid white;"></iframe>
 
 #### Neo’s Analysis: Emotional Averages Across Genres  
 As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how different genres evoke distinct emotional intensities. Here are his key insights:
@@ -105,7 +107,7 @@ As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how d
 
 To visualize emotional trajectories, Neo plotted the normalized emotional arcs for each genre over 20 timesteps. 
 
-<iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="110%" height="830" frameborder="0" style="max-width: 110%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 
 ### The Consistent Rhythm of Emotional Arcs Across Genres    
@@ -154,8 +156,7 @@ As Neo steps out of the Matrix, he leaves us with a thought:
 # Emotions and continents
 
 ### Average analysis
-
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="500" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="620" frameborder="0" style="max-width: 100%; border-left: 170px solid white;"></iframe>
 
 Neo examines the heatmap of emotional intensity across continents, uncovering fascinating regional patterns:  
 
@@ -168,7 +169,7 @@ Neo examines the heatmap of emotional intensity across continents, uncovering fa
 
 Overall, African films exhibit high emotional intensity, North American films lean toward restraint, Asian cinema emphasizes contrasts with negative and positive emotions quite high, and European productions balance their emotional palette. These variations reflect cultural nuances in global storytelling.
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/emotionsvscontinents.html" width="100%" height="500" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/emotionsvscontinents.html" width="100%" height="620" frameborder="0" style="max-width: 100%; border-left: 50px solid white;"></iframe>
 
 Neo made it possible to also visualize this on a map for better understanding.
 
@@ -195,15 +196,14 @@ When comparing emotional complexity metrics (amplitude, standard deviation, and 
 - Long movies showed slightly higher variability in emotional arcs, but the differences were modest.
 - Emotional complexity appeared to be influenced by factors beyond runtime, such as genre and storytelling style.
 
-<iframe src="{{ site.baseurl }}/assets/plot/emotional_arcs_in_movies\mean_emotional_variation.png" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/emotional_arcs_in_movies\emotional_variation_by_film_length.html" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 These results were not enough for Neo to conclude that longer movies inherently have more variation in emotional arcs or a more complex storyline. He decided to dive deeper by analyzing each emotion individually.
 
 ### Correlation Analysis
-
 Neo computed the correlation between runtime and emotional complexity metrics for each emotion:
 
-<iframe src="{{ site.baseurl }}/assets\plot\emotional_arcs_in_movies\emotional_complexity_emotions.png" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+<iframe src="{{ site.baseurl }}/assets\plot\emotional_arcs_in_movies\correlation_emotional_variation.html" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 The correlation varied depending on the emotion considered. The highest correlation was for disgust, suggesting that as the movie length increases, the variation in this emotion also increases, leading to more emotional complexity. There were notable differences in correlation for emotions like anger, disgust, joy, and neutral, while fear, sadness, and surprise showed very low correlation between runtime and emotional variation.
 
@@ -213,14 +213,25 @@ The correlation was positive but weak (r ≈ 0.15), suggesting that while runtim
 Neo's analysis revealed that while longer movies tend to exhibit slightly more complex emotional arcs, runtime alone does not fully account for emotional storytelling.
 Neo reflected on this, thinking about how a movie’s emotional depth cannot be reduced to just its runtime. There’s more to the emotional storytelling—something hidden in the layers of the plot, the pacing, and the way the characters evolve.
 
+---
 But there it is, Neo’s analysis is done. He's finished—for now. Or is he?
 
 <iframe src="{{ site.baseurl }}/assets\images\Trinity.webp" width="50%" height="350" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 Here comes Trinity. She’s not done yet. With a sharp look and a gun in hand, she’s demanding more. "Analysis. Do it by something other than genre. Now."
 
 Looks like Neo has no choice. He’s about to dive back in—whether he likes it or not. 
+---
 
-Red pill, blue pill, en fonction de PCA et shape (ines) 
+Neo sits quietly, the faint hum of data streams echoing in the background, when Morpheus steps into the scene, his silhouette commanding attention. His voice is calm but laced with purpose.
+<iframe src="{{ site.baseurl }}/assets\images\large_landscape_175005.webp" width="100%" height="750" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+
+“Neo,” he says, holding out his hands, “this is the moment of choice. In my right hand, the **red pill**—a journey into the world of **K-Shape clustering**. You’ll embrace the dynamic nature of time-series patterns, finding clusters that capture the rhythm and evolution of emotional arcs."
+
+He pauses, shifting his gaze to the left. “In my left hand, the **blue pill**—**PCA clustering**. A method of elegant simplicity, reducing dimensions to their essence. Here, patterns emerge in a structured space, but you’ll miss the nuance of how emotions evolve moment by moment.”
+
+Morpheus steps closer, his eyes piercing. “Choose wisely. The **red pill** dives into complexity, embracing the chaos of storytelling arcs. The **blue pill** offers clarity, a streamlined view of emotional trends. Either way, the data will reveal its secrets—but only one path leads to the full depth of the narrative.”
+
+Neo hesitates, his gaze flicking between the two pills. What will he choose? The structured elegance of PCA clustering or the intricate adaptability of K-Shape clustering? The journey into emotional analysis awaits. 
 
 <div class="dropdown-buttons">
   <div class="dropdown-container-blue">
