@@ -7,7 +7,6 @@ image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 next_post: /dataffoneurs-story/data analysis/sentiment analysis/movies/2024/12/11/how-to-get-emotions.html
 ---
-#What's in the data? (mettre qch de mieux)
 # 🎥 *Ladies and Gentlemen, Please Welcome... the CMU Movie Summary Corpus Dataset!* 🎤
 
 **Jimmy Fallon enters, applause erupts**  
@@ -27,8 +26,13 @@ Here’s a quick peek at my *Top 100 Genre Distribution*. It’s like the Golden
 
 <iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/distribution_top_100_genre.html" width="100%" height="600" frameborder="0"></iframe>  
 
-Thank you, thank you!"  
+Thank you, thank you! You’re too kind. Now, looking at my Top 100 Genre Distribution, you might think, 'Wow, this dataset really has its act together.' And you’d be right! But let me tell you, Jimmy, the road to this glamorous distribution wasn’t as straightforward as it seems. You see, I used to be a bit of a mess—genres everywhere, with movies claiming to belong to 20 different categories at once! It was chaos.
 
+So, what did we do? We rolled up our sleeves, put on our thinking caps, and mapped similar genres together. Cyberpunk and Alien invasion? Now neatly tucked under Fantasy/Sci-Fi. Zombie Film and Monster movie? Safely home in Horror. And voilà! We went from a cluttered chaos of hundreds of genres to a sleek, streamlined list that tells a clear story.
+
+It’s like taking a scattered script and turning it into a blockbuster screenplay. Now, when you look at my genre distribution, you’re not just seeing data—you’re seeing a masterpiece of organization. Less confusion, more impact. And trust me, Jimmy, I’ve never looked better."
+
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/genre_mapping_for_action_adventure_category.html" width="100%" height="900" frameborder="0"></iframe>  
 ---
 
 ### *Jimmy Jumps In*  
