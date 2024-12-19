@@ -1,75 +1,41 @@
 ---
 layout: post
-title:  "Mapping Movie Emotions: Sentiment Analysis in Film Summaries"
+title:  "1. Oppenheimer discovers sentiment analysis"
 weight:  2
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
-image: /assets/images/movie_theatre.jpg
-image2: /assets/images/movie_theatre.jpg
+image: /assets/images/oppenheimer.jpg
+previous_post: /dataffoneurs-story/mediator/feature/2024/12/11/Presentation-of-the-dataset.html
+next_post: /dataffoneurs-story/mediator/feature/2024/12/11/Clustering.html
 ---
 
-## Introduction
 
-Movies are a universal language, capable of evoking powerful emotions that resonate with audiences across cultures and generations. Understanding how emotions are embedded in films can offer insights into their storytelling success, audience impact, and even their box office performance. To explore this, we embarked on a sentiment analysis journey by analyzing the text of movie summaries. This post outlines our methodology for mapping emotional dynamics in movies and highlights some of the fascinating insights we've uncovered.
 
-## Methodology: Decoding Movie Emotions
 
-<br />
+# Methodology: decoding movie emotions
+<br>
 
-### 1. Data Preparation and Cleaning
+In the quiet of his study, Oppenheimer pondered the intricate dance of human emotions within cinematic narratives. He envisioned a method to quantify these sentiments; to decode the emotional currents that drive storytelling. Understanding how emotions are embedded in films could give him the key to cinema.
 
-The foundation of any data analysis project is clean, reliable data. We started by compiling movie summaries from the CMU Movie Summary Corpus and supplemented missing or incomplete data with summaries scraped from Wikipedia. Each summary underwent a rigorous cleaning process to remove noise, including stripping HTML tags and odd citations, standardizing formatting inconsistencies and removing irrelevant metadata or redundant content.
 
-To ensure the summaries were comprehensive enough for meaningful analysis, shorter summaries were replaced with longer versions when available. Below is a graph showcasing the distribution of summary lengths, revealing a highly skewed distribution with notable outliers:
+As an engineer, Oppenheimer understood the necessity of pristine data. He meticulously cleansed the data, removing unfitting elements to reveal the essence of each narrative. To ensure the summaries were sufficiently comprehensive for meaningful analysis, Oppenheimer replaced shorter summaries with more detailed versions from Wikipedia when available. He then observed the length of summaries:
 
 <iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/summary_length_distribution.html" width="100%" height="600" frameborder="0"></iframe>
 
-The left-skewed distribution posed a challenge since sentiment analysis relies on consistent time series data. To address this, we standardized the summaries by interpolating all time series data to 20 timesteps. This choice was guided by the median sentence count of 17 in movie summaries, providing a balanced compromise.
 
-### 2. Segmenting Summaries
-
-Initially, we aimed to segment movie plots based on sentence similarity using cosine similarity. However, even with low thresholds, this approach resulted in too few segments, making it unsuitable for time-series analysis. Given the median of 17 sentences per summary, we pivoted to a sentence-by-sentence sentiment analysis approach.
-
-For sentiment analysis, we experimented with two models:
-
-- A binary positive/negative sentiment classifier.
-- A multi-class emotion classifier capable of detecting seven emotions: anger, joy, surprise, disgust, sadness, fear, and neutral sentiment.
-
-The latter model was more informative and aligned with our goal of mapping emotional dynamics across movie plots.
-
-### 3. Sentiment Analysis
-
-The backbone of our sentiment analysis is a fine-tuned RoBERTa model trained on six diverse English datasets, including:
-
-- **Crowdflower (2016):** Social media emotion annotations.
-- **Emotion Dataset:** Curated for general-purpose sentiment analysis.
-- **GoEmotions (Demszky et al., 2020):** Extensive emotion annotations for Reddit comments.
-- **ISEAR (Vikash, 2018):** Emotion annotations in human interactions.
-- **MELD (Poria et al., 2019):** Multimodal sentiment analysis in dialogue contexts.
-- **SemEval-2018 (EI-reg):** Emotion intensity recognition.
-
-This robust training foundation enables the model to output probability scores (ranging from 0 to 1) for each emotion. Below is an example visualization highlighting the dominant emotion sentence by sentence in a movie plot summary:
+Faced with the challenge of segmenting movie plots into time-series, Oppenheimer decided to first do a sentence-by-sentence sentiment analysis. The scientist decided to give its trust to a multi-class emotion classifier capable of discerning seven distinct emotions: anger, joy, surprise, disgust, sadness, fear, and neutrality. He has given us a proof of concept: 
 
 <iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/sentences_with_dominant_emotions_highlighted.html" width="100%" height="600" frameborder="0"></iframe>
 
 <br />
 
-### 4. Interpolating Emotional Arcs
+Oppenheimer was now faced with yet another problem. How was he going to be comparing time-series of such a variety of sizes ? Helped with the previously found median of 17 sentences per film. He concluded that evaluating movies in 20 points would be enough. Therefore he finally we interpolated (or extrapolated when needed) all emotional arcs to fit 20 timesteps.
 
-To standardize the varying lengths of movie summaries, we interpolated all emotional arcs to fit 20 timesteps. This process ensured consistency across analyses, enabling direct comparisons between films. The interpolation was applied independently to each emotion, creating smooth, uniform time series data.
-
-Below are three visualizations demonstrating this process:
+As a perfectionist, he also gave two different ways of visualizing his end results for a movie.
 
 1. **True Emotional Data:** Raw output from sentiment analysis after interpolation.
-2. **Fitted Emotional Arc:** Fit of a smooth function om each emotion arc.
-3. **Strongest Emotion Highlighted:** A visualization emphasizing the dominant emotion at each timestep.
+    <iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/emotional_arc_of_the_movie.html" width="100%" height="600" frameborder="0"></iframe>
+2. **Strongest Emotion Highlighted:** A visualization emphasizing the dominant emotion at each timestep.
+    <iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/strongest_emotion_highlighted_across_timesteps.html" width="100%" height="600" frameborder="0"></iframe>
 
-<iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/emotional_arc_of_the_movie.html" width="100%" height="600" frameborder="0"></iframe>
-
-<iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/fitted_emotional_arc_of_the_movie.html" width="100%" height="600" frameborder="0"></iframe>
-
-<iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/strongest_emotion_highlighted_across_timesteps.html" width="100%" height="600" frameborder="0"></iframe>
-
-## Conclusion
-
-By dissecting movie summaries through sentiment analysis, we have begun to unravel the intricate emotional arcs that define storytelling in film. Our methodology; from data cleaning and interpolation to leveraging cutting-edge models; has enabled us to explore how emotions shape cinematic narratives across genres and time periods. Stay tuned as we dive deeper into these insights, examining correlations how emotions shape movies.
+After all this research, Oppenheimer is tired. But are you ready to discover more? Let's follow Neo through the Matrix of emotions in movies.
