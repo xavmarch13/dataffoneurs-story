@@ -13,6 +13,7 @@ associate to each category an emotion
 see the mean rating of movies according to their categories
 if horror very low rated --- less horror films produced, smaller sample --- horror dominated by emotion fear
 fear is less prevalent in continents where percentage of horror less small
+> [CLOSING VISUALIZATION: A "Genre Emotional Complexity Score" infographic ranking genres by their emotional range and variation]
 
 
 ## Introduction
@@ -157,6 +158,8 @@ On the other hand, Fantasy/Sci-Fi shows a reverse pattern, where happy endings r
 
 ### Emotion ARCS and ratings
 
+> [INTERACTIVE ELEMENT SUGGESTION: Create a "Choose Your Own Emotional Adventure" graph where readers can click different emotional combinations to see what movie genres typically match those patterns]
+
 With K-Shape clustering done for each emotion separately, we find the best and worst performing cluster for each movie category per emotion. 
 
 <iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/best_and_worst_clusters_general.html" 
@@ -167,21 +170,52 @@ With K-Shape clustering done for each emotion separately, we find the best and w
     style="overflow: hidden; min-width: 800px;">
 </iframe>
 
-Analyze only the categories and emotions where Δ(best-worst) > 0.15, focusing on the most statistically significant patterns:
-
 The analysis of emotional arcs across different film genres reveals distinct patterns that contribute to their effectiveness. Each genre demonstrates unique requirements for emotional pacing and intensity, with some showing more sensitivity to specific emotions than others.
 
 Action/Adventure films exhibit the most balanced emotional profile, requiring careful management of anger, fear, and sadness. These films succeed best when they maintain moderate baseline emotional intensity with strategic peaks, rather than constant high-intensity stimulation. This suggests that even action-packed narratives benefit from emotional breathing room that allows audiences to process and invest in the story.
 
+> EXAMPLE OF FILM WITH (CLUSTER ANGER 1) (CLUSTER FEAR 1) (CLUSTER SADNESS 4)
+
 Fantasy/Sci-Fi emerges as the most emotionally demanding genre, showing high deltas across all emotions. It is therefore the most polarizing genre emotionally. The most successful emotional arcs in this genre demonstrate gradual build-ups that allow audiences to acclimate to new worlds before reaching emotional peaks. This is particularly evident in fear arcs (Cluster 7), where a measured increase to a sustained mid-point peak proves more effective than rapid emotional spikes.
 
-- Cultural Theory: This genre's emotional effectiveness may be explained by the "Transportation Theory" - the more completely viewers can immerse themselves in a fictional world, the stronger their emotional responses.
-- Cognitive Processing: Fantasy/Sci-Fi's high emotional variance might reflect the additional cognitive load required to process unfamiliar worlds and concepts, making emotional engagement more dependent on viewer's willingness/ability to engage with complex narratives.
+> EXAMPLE OF FILM WITH (FEAR ARC CLUSTER 7)  701775
+<iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/fig_scifi_movie_fear_cluster7.html" 
+    width="100%" 
+    height="400" 
+    frameborder="0" 
+    scrolling="no" 
+    style="overflow: hidden; min-width: 800px;">
+</iframe>
 
+> HORROR FEAR CLUSTER 2 27420904
+
+<iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/fig_horror_movie_fear_cluster2.html" 
+    width="100%" 
+    height="400" 
+    frameborder="0" 
+    scrolling="no" 
+    style="overflow: hidden; min-width: 800px;">
+</iframe>
+
+
+> ACTION/ADVENTURE SADNESS CLUSTER 4 28157443
+
+
+
+<iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/fig_action_movie_sadness_cluster4.html" 
+    width="100%" 
+    height="400" 
+    frameborder="0" 
+    scrolling="no" 
+    style="overflow: hidden; min-width: 800px;">
+</iframe>
 
 
 Horror films show fascinating patterns in anger and surprise management. The most effective anger arc (Cluster 5) maintains a steady moderate intensity rather than dramatic spikes, suggesting that sustained tension outperforms shock value. Similarly, successful surprise arcs maintain consistent mid-level arousal with small variations, allowing for effective shock moments while avoiding emotional exhaustion.
 Horror shows the largest deltas across multiple emotions (Anger, Fear, Surprise), suggesting it's one of the most emotionally polarizing genres. Psychological Theory: This aligns with the "Excitation Transfer Theory" where heightened arousal from fear/anxiety can intensify subsequent emotional responses. Cluster 5 being best for both Anger and Horror suggests successful horror relies on building tension through anger before releasing it through fear.
+
+> : Create a side-by-side comparison of emotional arcs, like an EKG reading, showing the difference between a "jump scare" horror movie versus a "sustained tension" one (CLUSTER 5 ANGER) versus (CLUSTER 4 ANGER)
+> CASE STUDY SUGGESTION: Add a breakdown of a critically acclaimed horror film that follows this pattern perfectly, showing the emotional data overlaid with key scene descriptions
 
 For emotional arc characteristics across specific emotions:
 
@@ -191,6 +225,7 @@ Fear demonstrates optimal results with a gradual build to a mid-point peak follo
 
 
 Sadness shows interesting patterns in Action/Adventure, where success comes from gradual decrease with multiple small peaks (Cluster 4) rather than sharp declines (Cluster 2). The most effective sadness arcs maintain emotional resilience through measured pacing, allowing for depth without overwhelming other genre elements. Interestingly, while both clusters show decreasing sadness, the gradual decline performs better than the steep drop, suggesting audiences prefer emotional resolution that feels earned rather than rushed.
+
 
 Disgust, particularly important in Fantasy/Sci-Fi, works best with steady, controlled progression (Cluster 1) rather than irregular spikes (Cluster 3). This suggests that audiences need time to process unfamiliar or challenging elements, with measured introduction proving more effective than sudden exposure.
 
