@@ -22,28 +22,16 @@ Neo delves into the Matrix of Emotions to uncover the answers, guiding us throug
 
 # Global emotional trends
 
+TEXT TODO
+
 ### Average analysis
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="84%" height="500" frameborder="0"></iframe>
 
 ### Time-series analysis
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/emotions_general_time_analysis.html" width="84%" height="500" frameborder="0"></iframe>
-
-# Emotions and genres
-
-### Average analysis
-
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="500" frameborder="0"></iframe>
-
-### Time-series analys
-
-# Emotions and continents
-
-### Average analysis
-
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/emotionsvscontinents.html" width="100%" height="500" frameborder="0"></iframe>
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/normalised_emotions_time_analysis.html
+" width="84%" height="500" frameborder="0"></iframe>
 
 
 ### Time-series analysis
@@ -61,6 +49,14 @@ Neo first take a look at the genres distribution in films.
 Drama is the most common genre, accounting for the largest proportion at approximately 26%. This is followed by comedy and thriller, which hold significant but smaller shares. The distribution suggests a diverse set of genres without a single dominant category, reflecting the varied preferences in cinematic storytelling. 
 
 Neo smirks. “Drama. Of course. Conflict defines us, doesn’t it? The choices we make, the consequences we endure. But diversity in stories… that’s the humanity behind it all.”
+
+# Emotions and genres
+
+### Average analysis
+
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="500" frameborder="0"></iframe>
+
+TEXTE ANALYSE AVERAGE  
 
 ### 4. Visualizing Emotional Arcs by Genre
 
@@ -111,6 +107,17 @@ Much like Neo’s journey, the emotional arcs of movies reflect both universal t
 As Neo steps out of the Matrix, he leaves us with a thought:
 
 “Storytelling is about choice—whether it’s the red pill or the blue, or how we shape emotions to tell tales that resonate. What’s your choice?”
+
+# Emotions and continents
+
+### Average analysis
+
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/emotionsvscontinents.html" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="500" frameborder="0"></iframe>
+
+rajouter graphe en fonction des différents continents, voir si arcs varient selon continent 
+
+Add oracle intro -->
 
 ## **Do longer movies tell more complex emotional stories?**
 
@@ -176,7 +183,9 @@ But there it is, Neo’s analysis is done. He's finished—for now. Or is he?
 <iframe src="{{ site.baseurl }}/assets\images\Trinity.webp" width="50%" height="350" frameborder="0"></iframe>
 Here comes Trinity. She’s not done yet. With a sharp look and a gun in hand, she’s demanding more. "Analysis. Do it by something other than genre. Now."
 
-Looks like Neo has no choice. He’s about to dive back in—whether he likes it or not.
+Looks like Neo has no choice. He’s about to dive back in—whether he likes it or not. 
+
+Red pill, blue pill, en fonction de PCA et shape (ines) 
 
 ## **Can we classify films by anything other than genre?**
 As Neo dive back in the data, the question arises: Can emotions help us discover hidden trends in movies? Are North American drama films emotionally similar to European thrillers? Let's dive into his analysis and see what emerges.
