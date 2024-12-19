@@ -22,8 +22,6 @@ Neo delves into the Matrix of Emotions to uncover the answers, guiding us throug
 
 # Global emotional trends
 
-TEXT TODO
-
 ### Average analysis
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="84%" height="500" frameborder="0"></iframe>
@@ -71,8 +69,6 @@ As Neo steps back, the patterns become clear. Each box in the plot represents a 
    - In the later timesteps, most emotions converge toward lower normalized values, except for *joy* and *neutral*, which dominate the emotional spectrum as climaxes are reached.  
      *Interpretation*: This convergence highlights how narratives resolve emotional conflicts, leaving audiences with feelings of hope (joy) or stability (neutral).
 
----
-
 #### Overall Interpretation:
 This normalized analysis highlights the interplay and relative importance of different emotions across a narrative timeline:
 - *Anger* and *fear* are central to maintaining emotional tension over time, while their resolution by the end aligns with the catharsis typical of storytelling.
@@ -83,21 +79,6 @@ This normalized analysis highlights the interplay and relative importance of dif
 This pattern reflects the structure of many narratives, where lighter emotions provide balance, and darker emotions drive conflict, with resolution or positivity prevailing by the end.
 
 
-### Time-series analysis
-
-### 1. Data Collection and Categorization
-
-Neo used movie summaries from the CMU Movie Summary Corpus and was provided with additional data scraped from Wikipedia. Each movie was tagged with its primary genre(s), enabling Neo to group emotional arcs by genre for comparative analysis. 
-
-Because of the astronomic number of genres in the data (about 360), Neo decided to handcraft a mapping to go down from 300 plus genres of movies to about a dozen. While Neo's mapping may be a point of discussion among movie enthousiasts, Neo find it a good approximation to a more general genre classification. 
-
-Neo pauses. “Reduction,” he murmurs. “Finding simplicity in the noise. It’s like filtering out the static in the Matrix.”
-
-
-Neo first take a look at the genres distribution in films.
-Drama is the most common genre, accounting for the largest proportion at approximately 26%. This is followed by comedy and thriller, which hold significant but smaller shares. The distribution suggests a diverse set of genres without a single dominant category, reflecting the varied preferences in cinematic storytelling. 
-
-Neo smirks. “Drama. Of course. Conflict defines us, doesn’t it? The choices we make, the consequences we endure. But diversity in stories… that’s the humanity behind it all.”
 
 # Emotions and genres
 
@@ -105,9 +86,22 @@ Neo smirks. “Drama. Of course. Conflict defines us, doesn’t it? The choices 
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="500" frameborder="0"></iframe>
 
-TEXTE ANALYSE AVERAGE  
+#### Neo’s Analysis: Emotional Averages Across Genres  
+As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how different genres evoke distinct emotional intensities. Here are his key insights:
 
-### 4. Visualizing Emotional Arcs by Genre
+1. *Disgust Peaks in Horror*:  
+   Neo immediately notices that the emotion of *disgust* is most prevalent in the Horror genre, where its intensity far surpasses that in other genres. “Horror thrives on discomfort,” Neo remarks, “and disgust is a key driver of that visceral reaction.”
+
+2. *Sadness Dominates Drama and Romance*:  
+   In both Drama and Romance, *sadness* emerges as a defining emotion, with the highest average intensities compared to other emotions. 
+
+3. *Joy Shines in Comedy*:  
+   The Comedy genre sees *joy* as its most prominent emotion, reflecting its purpose of uplifting and entertaining audiences of all ages.
+
+4. *Fear in Horror and Thriller*:  
+   Unsurprisingly, *fear* is most intense in the Horror and Thriller genres. While horror focuses on dread and terror, thrillers use fear to build tension and suspense. “These genres rely on keeping audiences on the ed  
+
+### Visualizing Emotional Arcs by Genre
 
 To visualize emotional trajectories, Neo plotted the normalized emotional arcs for each genre over 20 timesteps. 
 
@@ -161,8 +155,22 @@ As Neo steps out of the Matrix, he leaves us with a thought:
 
 ### Average analysis
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/emotionsvscontinents.html" width="100%" height="500" frameborder="0"></iframe>
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="500" frameborder="0"></iframe>
+
+Neo examines the heatmap of emotional intensity across continents, uncovering fascinating regional patterns:  
+
+- *Anger* is most intense in African, North Americans and Asian films, while more moderate in South American, European and Oceanian productions.  
+- *Disgust* stands out in African, European and South American films, with lower levels in Asian, North American and Oceanian cinema.
+- *Fear* remains consistent globally, slightly higher in European films but less prominent in North America.  
+- *Joy* is subdued overall, with a slight peak in Asian cinema and notably low intensity in North American films.  
+- *Sadness* is uniformly moderate to high across continents, with stronger presence in African and Asian productions.  
+- *Surprise* is the least intense emotion worldwide, showing minimal variation across regions.  
+
+Overall, African films exhibit high emotional intensity, North American films lean toward restraint, Asian cinema emphasizes contrasts with negative and positive emotions quite high, and European productions balance their emotional palette. These variations reflect cultural nuances in global storytelling.
+
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/emotionsvscontinents.html" width="100%" height="500" frameborder="0"></iframe>
+
+Neo made it possible to also visualize this on a map for better understanding.
 
 rajouter graphe en fonction des différents continents, voir si arcs varient selon continent 
 
@@ -176,29 +184,7 @@ Movies have the power to evoke a spectrum of emotions, from joy and sadness to a
 
 Neo, as usual, dives into the data with his characteristic curiosity, seeing the emotional journey of each movie as a code waiting to be cracked.
 
-## Methodology: Measuring Emotional Complexity
 
-<br />
-
-### 1. Data Sources and Cleaning
-
-Neo began by merging emotional data from sentiment analysis models with metadata about movie runtimes. The emotional data consisted of seven key emotions (anger, disgust, fear, joy, neutral, sadness, and surprise) extracted from movie plot summaries. Each emotional arc was standardized to 20 timesteps to ensure comparability between movies of varying plot lengths.
-
-### 2. Calculating Emotional Metrics
-
-To quantify emotional complexity, Neo computed three key metrics for each movie:
-
-- **Amplitude:** The difference between the maximum and minimum emotion values.
-- **Standard Deviation:** The variability of emotion intensity throughout the plot.
-- **Sum of Absolute Changes:** The cumulative magnitude of emotion shifts between consecutive timesteps.
-
-### 3. Categorizing Movies by Runtime
-
-Neo then categorized movies into two groups based on their runtime:
-- **Short Movies:** Runtimes ≤ 120 minutes.
-- **Long Movies:** Runtimes > 120 minutes.
-
-This classification allowed him to compare emotional complexity between the two groups.
 
 ## Results
 
@@ -236,6 +222,11 @@ Looks like Neo has no choice. He’s about to dive back in—whether he likes it
 
 Red pill, blue pill, en fonction de PCA et shape (ines) 
 
+<div class="dropdown-container-blue">
+  <button class="dropdown-btn-blue">Take the blue pill</button>
+  <div class="dropdown-content-blue">
+     
+    {% capture markdown_content %}
 ## **Can we classify films by anything other than genre?**
 As Neo dive back in the data, the question arises: Can emotions help us discover hidden trends in movies? Are North American drama films emotionally similar to European thrillers? Let's dive into his analysis and see what emerges.
 
@@ -251,77 +242,125 @@ Combining both methods:
 
 Neo finds that having 7 clusters fits perfectly for the analysis as each cluster represents a category of films that is emotionally dominated by one particular feeling. For example, cluster 1 is filled with films that evoke the most anger, cluster 2 showcases films that generate the most joy, and so on.
 
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/elbow_silhouette.html" width="100%" height="700" frameborder="0"></iframe>  
 
+    {% capture markdown_content %}
 Neo also plots the clustering through K-Means of the seven emotions in 3D for better visualization. (Analyse????)
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
 
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/pca_kmeans.html" width="100%" height="900" frameborder="0"></iframe>  
 
+    {% capture markdown_content %}
 Neo takes a closer look at the data through clustering analysis. 
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
 
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/barplot_highest_emotions.html" width="100%" height="800" frameborder="0"></iframe>  
 
+    {% capture markdown_content %}
 From here, Neo notices some interesting trends. Compared to the overall genre distribution, Action and Thriller films are overrepresented in clusters dominated by anger. In films where joy is most prevalent, there’s a notable overrepresentation of Drama, Romance, and Comedy films, while Thrillers and Horror films don’t show much joy. Comedy and Animation films tend to dominate when surprise is the most prominent emotion. Similar to cluster 2, films with high sadness are predominantly Drama and Romance. In cluster 5, which focuses on fear, Neo observes that Thrillers and Horror films are well-represented. Horror films also dominate when disgust is the most prevalent emotion. Finally, the cluster with the highest representation of Comedy, Family/Animation, and Fantasy-Sci-Fi films aligns with a more neutral emotional profile.
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
 
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/repartition_overall_and_cluster.html" width="100%" height="700" frameborder="0"></iframe>  
+
+    {% capture markdown_content %}
 Neo also looked at how each genre is partitioned between different cluster to better understand the overall distribution of clusters across categories. These graphs supports Neo's analysis from above.
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
 
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_per_category.html" width="100%" height="1600" frameborder="0"></iframe>  
 
+    {% capture markdown_content %}
 ## Analysis of Cluster Distribution by Genre and Emotions
 
 ### Cluster 1 - Anger
 - **Highest proportion of anger**: *30.3% in Action/Adventure*, *26.5% in Thriller*.  
 - **Neo's Analysis**:  
-  Action and adventure films generate anger primarily through themes of conflict, rivalry, and injustice. Physical confrontations, chases, and revenge-driven plots are hallmarks of the genre, evoking strong emotional reactions.  
-  In dramas, anger arises from frustration caused by unjust or tragic situations faced by the characters. This often reflects the audience's identification with societal, familial, or personal conflicts.
-  ### Example: 
+Action and adventure films generate anger primarily through themes of conflict, rivalry, and injustice. Physical confrontations, chases, and revenge-driven plots are hallmarks of the genre, evoking strong emotional reactions.  
+In dramas, anger arises from frustration caused by unjust or tragic situations faced by the characters. This often reflects the audience's identification with societal, familial, or personal conflicts.
+### Example: 
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_1.html" width="100%" height="700" frameborder="0"></iframe>  
 
+    {% capture markdown_content %}
 ### Cluster 2 - Joy
 - **Highest proportion of joy**: *13.7% in Comedy*, *20% in Romance*.  
 - **Neo's Analysis**:  
-  While comedies aim to evoke joy, the proportion remains relatively low (13.7%), likely because humor is often intertwined with surprise or neutral elements, creating a mixed emotional experience.  
-  In romances, joy is more prominent (20%) as these films focus on moments of happiness, fulfilled love, and positive resolutions of relational conflicts.
+While comedies aim to evoke joy, the proportion remains relatively low (13.7%), likely because humor is often intertwined with surprise or neutral elements, creating a mixed emotional experience.  
+In romances, joy is more prominent (20%) as these films focus on moments of happiness, fulfilled love, and positive resolutions of relational conflicts.
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
 
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_2.html" width="100%" height="700" frameborder="0"></iframe>  
 
+    {% capture markdown_content %}
 ### Cluster 3 - Surprise
 - **Highest proportion of surprise**: *11.3% in Family/Animation*, *9.89% in Comedy*.  
 - **Neo's Analysis**:  
-  Family/animation and fantasy/science fiction films thrive on imaginative worlds, unexpected plot twists, and visually spectacular elements. These genres cultivate curiosity and wonder, which are core components of surprise.  
-  Plot reversals and magical or futuristic scenarios encourage viewers to explore new possibilities, evoking both surprise and fascination.
+Family/animation and fantasy/science fiction films thrive on imaginative worlds, unexpected plot twists, and visually spectacular elements. These genres cultivate curiosity and wonder, which are core components of surprise.  
+Plot reversals and magical or futuristic scenarios encourage viewers to explore new possibilities, evoking both surprise and fascination.
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_3.html" width="100%" height="700" frameborder="0"></iframe>  
-
-
+    
+    {% capture markdown_content %}
 ### Cluster 4 - Sadness
 - **Highest proportion of sadness**: *20.7% in Romance*, *19.5% in Drama*.  
 - **Neo's Analysis**:  
-  Dramas delve into emotions of loss, hardship, and human sacrifice, often presenting realistic emotional conflicts that evoke authentic sadness in viewers.  
-  Romances, while generating joy, also explore themes of heartbreak, unfulfilled love, or emotional dilemmas, leading to sadness when relational conflicts remain unresolved.
+Dramas delve into emotions of loss, hardship, and human sacrifice, often presenting realistic emotional conflicts that evoke authentic sadness in viewers.  
+Romances, while generating joy, also explore themes of heartbreak, unfulfilled love, or emotional dilemmas, leading to sadness when relational conflicts remain unresolved.
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_4.html" width="100%" height="700" frameborder="0"></iframe>  
 
-
+    {% capture markdown_content %}
 ### Cluster 5 - Fear
 - **Highest proportion of fear**: *29.7% in Horror*, *20.2% in Thriller*, *19.2% in Fantasy/Sci-Fi*.  
 - **Neo's Analysis**:  
-  Horror films evoke primal fear and anxiety through themes of survival, imminent danger, or supernatural elements. Psychological theories suggest fear triggers strong physiological responses (adrenaline and muscle tension), enhancing audience immersion.  
-  Thrillers induce a more cognitive form of fear, relying on suspense, hidden threats, and plot twists to maintain a state of tension and unease.
+Horror films evoke primal fear and anxiety through themes of survival, imminent danger, or supernatural elements. Psychological theories suggest fear triggers strong physiological responses (adrenaline and muscle tension), enhancing audience immersion.  
+Thrillers induce a more cognitive form of fear, relying on suspense, hidden threats, and plot twists to maintain a state of tension and unease.
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_5.html" width="100%" height="700" frameborder="0"></iframe>  
 
+    {% capture markdown_content %}
 ### Cluster 6 - Disgust
 - **Highest proportion of disgust**: *30.3% in Horror*.  
 - **Neo's Analysis**:  
-  Horror films often elicit disgust through graphic, violent, or disturbing imagery. Disgust is tied to instinctual reactions of repulsion and self-preservation, amplifying the sensory impact of the viewing experience.
+Horror films often elicit disgust through graphic, violent, or disturbing imagery. Disgust is tied to instinctual reactions of repulsion and self-preservation, amplifying the sensory impact of the viewing experience.
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_6.html" width="100%" height="700" frameborder="0"></iframe>  
 
+    {% capture markdown_content %}
 ### Cluster 7 - Neutral
 - **Highest proportion of neutrality**: *40.5% in Family/Animation*, *35.5% in Fantasy/Sci-Fi*.  
 - **Neo's Analysis**:  
-  Family and comedy films tend to avoid extreme emotions, opting for light, balanced narratives that are accessible to broader audiences. This emotional neutrality reflects a desire to provide positive experiences without overwhelming viewers.
+Family and comedy films tend to avoid extreme emotions, opting for light, balanced narratives that are accessible to broader audiences. This emotional neutrality reflects a desire to provide positive experiences without overwhelming viewers.
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+
 <iframe src="{{ site.baseurl }}/assets/plot/cluster/cluster_7.html" width="100%" height="700" frameborder="0"></iframe>  
 
----
+  </div>
+</div>
+
+<div class="dropdown-container-red">
+  <button class="dropdown-btn-red">Take the red pill</button>
+  <div class="dropdown-content-red">
+      
+  </div>
+</div>
 
 ## General Conclusion
 
@@ -343,25 +382,46 @@ Neo concludes that the clusters reflect an emotional specialization within film 
 
 ## General Conclusion
 
-<div class="dropdown-container">
-  <button class="dropdown-btn-blue">Take the blue pill</button>
-  <div class="dropdown-content">
-    
+### 1. Data Collection and Categorization
 
-  </div>
-</div>
+Neo used movie summaries from the CMU Movie Summary Corpus and was provided with additional data scraped from Wikipedia. Each movie was tagged with its primary genre(s), enabling Neo to group emotional arcs by genre for comparative analysis. 
 
-<div class="dropdown-container">
-  <button class="dropdown-btn-red">Take the red pill</button>
-  <div class="dropdown-content">
-    
-    
-  </div>
-</div>
+Because of the astronomic number of genres in the data (about 360), Neo decided to handcraft a mapping to go down from 300 plus genres of movies to about a dozen. While Neo's mapping may be a point of discussion among movie enthousiasts, Neo find it a good approximation to a more general genre classification. 
 
+Neo pauses. “Reduction,” he murmurs. “Finding simplicity in the noise. It’s like filtering out the static in the Matrix.”
+
+
+Neo first take a look at the genres distribution in films.
+Drama is the most common genre, accounting for the largest proportion at approximately 26%. This is followed by comedy and thriller, which hold significant but smaller shares. The distribution suggests a diverse set of genres without a single dominant category, reflecting the varied preferences in cinematic storytelling. 
+
+Neo smirks. “Drama. Of course. Conflict defines us, doesn’t it? The choices we make, the consequences we endure. But diversity in stories… that’s the humanity behind it all.”
+
+## Methodology: Measuring Emotional Complexity
+
+<br />
+
+### 1. Data Sources and Cleaning
+
+Neo began by merging emotional data from sentiment analysis models with metadata about movie runtimes. The emotional data consisted of seven key emotions (anger, disgust, fear, joy, neutral, sadness, and surprise) extracted from movie plot summaries. Each emotional arc was standardized to 20 timesteps to ensure comparability between movies of varying plot lengths.
+
+### 2. Calculating Emotional Metrics
+
+To quantify emotional complexity, Neo computed three key metrics for each movie:
+
+- **Amplitude:** The difference between the maximum and minimum emotion values.
+- **Standard Deviation:** The variability of emotion intensity throughout the plot.
+- **Sum of Absolute Changes:** The cumulative magnitude of emotion shifts between consecutive timesteps.
+
+### 3. Categorizing Movies by Runtime
+
+Neo then categorized movies into two groups based on their runtime:
+- **Short Movies:** Runtimes ≤ 120 minutes.
+- **Long Movies:** Runtimes > 120 minutes.
+
+This classification allowed him to compare emotional complexity between the two groups.
 <style>
 /* Dropdown container */
-.dropdown-container {
+.dropdown-container-blue {
   position: relative;
   margin: 20px 0;
 }
@@ -420,7 +480,7 @@ Neo concludes that the clusters reflect an emotional specialization within film 
 
 
 /* Dropdown content */
-.dropdown-content {
+.dropdown-content-blue {
   display: none;
   margin-top: 10px;
   background-color: #f9f9f9;
@@ -432,14 +492,42 @@ Neo concludes that the clusters reflect an emotional specialization within film 
 }
 
 /* Show dropdown when open */
-.dropdown-container.open .dropdown-content {
+.dropdown-container-blue.open .dropdown-content-blue {
+  display: block;
+}
+
+/* Dropdown content */
+.dropdown-content-red {
+  display: none;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Show dropdown when open */
+.dropdown-container-red.open .dropdown-content-red {
   display: block;
 }
 </style>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".dropdown-btn").forEach(function (btn) {
+    document.querySelectorAll(".dropdown-btn-red").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        const container = this.parentElement;
+        container.classList.toggle("open");
+      });
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".dropdown-btn-blue").forEach(function (btn) {
       btn.addEventListener("click", function () {
         const container = this.parentElement;
         container.classList.toggle("open");
