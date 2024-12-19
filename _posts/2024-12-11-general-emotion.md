@@ -27,11 +27,60 @@ TEXT TODO
 ### Average analysis
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="84%" height="500" frameborder="0"></iframe>
+Peering at the boxplot data, Neo begins his analysis:
+
+#### Neo’s Observations:
+1. *Neutral Dominates*:  
+   Neo notices that the neutral emotion reigns supreme, showing the highest overall intensity. Its broad range and numerous outliers reveal that neutral sentiment is globally prevalent, acting as a baseline or anchor emotion in many stories. “It’s the calm before the storm,” Neo mutters, recognizing how neutrality often serves as the foundation from which other emotions emerge.
+
+2. *Sadness and Joy Stand Out*:  
+   As Neo traces the distributions of sadness and joy, he notes their similar ranges. Sadness, however, has a slightly broader spread and more pronounced outliers. “Sadness... the weight of loss,” Neo reflects, recognizing its frequent, varied presence in narratives. Joy, on the other hand, represents moments of triumph, its distribution slightly narrower but still impactful. Together, these emotions mirror the rise and fall of human experience.
+
+3. *Anger, Disgust, Fear, and Surprise Are Less Prominent*:  
+   Neo points out that these four emotions have lower intensities compared to neutral and sadness. Anger, however, stands apart with a wider range. “Anger spikes,” Neo notes, “but it rarely lingers—it’s sharp, fleeting, and focused.” Surprise, meanwhile, has the smallest range, its bursts brief but meaningful, like the unexpected twists in the Matrix itself.
+
+As Neo steps back, the patterns become clear. Each box in the plot represents a world of emotion—some dominant, others fleeting. Neutral anchors the journey, sadness gives it depth, joy offers relief, and anger, disgust, fear, and surprise provide sharp contrasts.
 
 ### Time-series analysis
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/normalised_emotions_time_analysis.html
 " width="84%" height="500" frameborder="0"></iframe>
+
+#### Neo's Observations:
+1. *Initial Spike and Divergence*:
+   - *Anger* starts with the lowest normalized intensity, then gradually rises during the story. Towards the end, anger experiences a significant decline.  
+     *Interpretation*: Anger’s gradual rise and decline suggest it plays a role in building tension throughout the narrative, but it often resolves or diminishes by the conclusion.
+
+   - *Joy* follows an inverse emotional arc, starting with a high normalized intensity, only to decline in the middle of the movie, and then rising back up towards the end.  
+     *Interpretation*: Joy’s trajectory reflects uplifting beginnings and endings, bookending stories with hope or positivity despite darker or challenging middle arcs.
+
+   - *Sadness* is high at the start of the story but declines quickly right after. In the middle of the story, *sadness* steadily increases throughout the timeline, becoming significant toward the later timesteps, before dropping back down at the end of the story.  
+     *Interpretation*: Sadness appears to underpin pivotal emotional moments in the story, particularly in climaxes or resolutions, before giving way to a more uplifting or neutral conclusion.
+
+   - Emotions like *fear* and *disgust* show similarities in their emotional arcs, both starting with high normalized intensity. Although *fear* remains quite constant during the story, unlike *disgust*, which starts declining early, they both end up with very low normalized intensity near the end due to a drop near the story's conclusion.  
+     *Interpretation*: Fear and disgust are essential in maintaining tension and unease during narratives but are typically resolved by the end, reflecting catharsis or resolution for audiences.
+
+2. *Surprise and Neutral*:
+   - *Surprise* follows a unique trajectory, starting with very low normalized intensity, showing multiple peaks throughout the evolution of the timesteps, and ending with a middle intensity.  
+     *Interpretation*: Surprise acts as a dynamic element, punctuating the narrative with moments of unexpected turns before stabilizing toward the end. This mirrors its role in maintaining audience engagement and unpredictability.
+
+   - *Neutral* starts low at the beginning, then remains relatively stable throughout the story, only to spike heavily at the end and finish with a very high normalized intensity score.  
+     *Interpretation*: Neutral states serve as transitions or resting points in narratives but often dominate endings, reflecting closure or resolution.
+
+3. *Final Convergence*:
+   - In the later timesteps, most emotions converge toward lower normalized values, except for *joy* and *neutral*, which dominate the emotional spectrum as climaxes are reached.  
+     *Interpretation*: This convergence highlights how narratives resolve emotional conflicts, leaving audiences with feelings of hope (joy) or stability (neutral).
+
+---
+
+#### Overall Interpretation:
+This normalized analysis highlights the interplay and relative importance of different emotions across a narrative timeline:
+- *Anger* and *fear* are central to maintaining emotional tension over time, while their resolution by the end aligns with the catharsis typical of storytelling.
+- *Sadness* plays a pivotal role in emotional climaxes or dramatic peaks, often tied to critical story moments.
+- *Joy* and *neutral* emotions dominate at the start and end, framing stories with positivity and resolution, even after emotionally intense arcs.
+- The dynamic nature of *surprise* punctuates stories, contributing to unpredictability and engagement.
+
+This pattern reflects the structure of many narratives, where lighter emotions provide balance, and darker emotions drive conflict, with resolution or positivity prevailing by the end.
 
 
 ### Time-series analysis
@@ -291,3 +340,110 @@ Neo's analysis of film clusters and their dominant emotions highlights a strong 
 
 ### Summary  
 Neo concludes that the clusters reflect an emotional specialization within film genres. Each genre serves a unique emotional purpose, eliciting specific psychological and physiological responses in viewers. This diversity underscores cinema's powerful ability to provoke varied and complex emotional reactions.  
+
+## General Conclusion
+
+<div class="dropdown-container">
+  <button class="dropdown-btn-blue">Take the blue pill</button>
+  <div class="dropdown-content">
+    
+
+  </div>
+</div>
+
+<div class="dropdown-container">
+  <button class="dropdown-btn-red">Take the red pill</button>
+  <div class="dropdown-content">
+    
+    
+  </div>
+</div>
+
+<style>
+/* Dropdown container */
+.dropdown-container {
+  position: relative;
+  margin: 20px 0;
+}
+
+/* Dropdown button */
+.dropdown-btn-blue {
+  background-color:rgb(0, 8, 255);
+  color: white;
+  padding: 10px 20px;
+  border: 4px solid rgb(0,8,255);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-btn-blue:hover {
+  background-color:rgb(4, 1, 158);
+}
+
+/* Dropdown button */
+.dropdown-btn-red {
+  background-color:rgb(255, 47, 0);
+  color: white;
+  padding: 10px 20px;
+  border: 4px solid rgb(255, 47, 0);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-btn-red:hover {
+  background-color:rgb(173, 36, 5);
+}
+
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Show dropdown when open */
+.dropdown-container.open .dropdown-content {
+  display: block;
+}
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".dropdown-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        const container = this.parentElement;
+        container.classList.toggle("open");
+      });
+    });
+  });
+</script>
