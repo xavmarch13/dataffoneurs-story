@@ -178,13 +178,31 @@ Overall, African films exhibit high emotional intensity, North American films le
 
 Neo made it possible to also visualize this on a map for better understanding.
 
-rajouter graphe en fonction des différents continents, voir si arcs varient selon continent 
+<iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="110%" height="830" frameborder="0" style="max-width: 110%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
-Add oracle intro -->
+Neo dives into the emotional arcs across genres, this time examining variations by continent. The findings reveal fascinating contrasts:
+
+Some continents, such as **North America**, **Asia**, and **Europe** exhibit a more consistent emotional arc across genres for certain emotions such as joy, anger and disgust. These arcs closely resemble the average emotional trajectory observed when considering all continents combined, suggesting a stronger alignment with global storytelling trends. 
+
+In contrast, continents like **Africa**, **Oceania** and **South America**, display highly diverse emotional arcs that vary significantly between genres, even for emotions such as joy, anger and disgust. There is no single dominant pattern for each emotions; instead, the arcs shift dramatically depending on the storytelling style and thematic focus of each genre.   
+
+These results could be related to the lower number of movies in Oceania, South America, and Africa, which could explain the observed variations, but this also highlights how cultural influences shape emotional storytelling, with some regions embracing genre-specific emotional diversity and others leaning toward a unified narrative rhythm across genres.
+
+--- 
+
+**The Oracle appears, her calm yet cryptic demeanor radiating wisdom. She smiles knowingly and leans forward, speaking in her usual enigmatic tone:**  
+
+<iframe src="{{ site.baseurl }}/assets/images\Neo-and-The-Oracle-in-The-Matrix-Reloaded.png" width="100%" height="800" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
+
+"Ah, you've come far in understanding emotions and stories. But let me ask you something new, something unexpected…"
+
+**"Do longer movies tell more complex emotional stories?"**  
+
+Her words hang like a riddle, challenging Neo to think deeper. She tilts her head, her smile widening, as if she already knows the answer—but leaves it for you to uncover.
 
 ## **Do longer movies tell more complex emotional stories?**
 
-As Neo navigates through streams of data, this new question lingers in his mind. It resonates with him on a deeper level: 
+As Neo delves into streams of data, the Oracle's question lingers in his mind, pushing him to uncover its answer.
 
 Movies have the power to evoke a spectrum of emotions, from joy and sadness to anger and surprise. But does the length of a movie influence how complex its emotional journey can be? In this analysis, Neo explores whether longer movies, with runtimes exceeding 2 hours, exhibit more intricate emotional arcs compared to their shorter counterparts. By analyzing emotional metrics derived from sentiment analysis, Neo investigates the relationship between runtime and emotional storytelling.
 
