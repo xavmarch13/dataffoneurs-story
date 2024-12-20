@@ -59,10 +59,10 @@ Nellie is transported back to 1914—a time before her Hollywood reign. The worl
 
 “Fear and disgust were already there,” Nellie recalls. “But after the war? Oh, darling, they became something else.”
 
-1. **The Decline of Disgust:**
+1. **The decline of disgust:**
 Audiences had seen enough horror on the battlefields. When they turned to movies, they didn’t want grotesque reminders—they wanted hope, beauty, and escape. Filmmakers adjusted, dialing back disgust and turning their focus to more uplifting themes.
 
-2. **The Rise of Fear:**
+2. **The rise of fear:**
 Fear, though? Fear took center stage. The war had introduced new anxieties—uncertainty, loss, and a destabilized world—and movies channeled that collective dread. Silent thrillers, survival stories, and suspenseful dramas reflected a world still reeling from the trauma of war.
 
 <iframe src="{{ site.baseurl }}/assets/plots_alix/impact_of_WW1_Before_1914.html" 
@@ -122,7 +122,7 @@ She stands, brushing invisible dust off her dress. “But that’s the thing abo
 
 ---
 
-## **Conclusion: A Chaotic, Glittering Reflection**
+## **Conclusion: a chaotic, glittering reflection**
 
 
 As the projector dims, Nellie LaRoy takes center stage one last time. With a glimmer in her eye, she looks out over Hollywood’s skyline, the city that’s as chaotic, glamorous, and unpredictable as the movies themselves.
@@ -132,5 +132,5 @@ As the projector dims, Nellie LaRoy takes center stage one last time. With a gli
 She spins, laughing, arms wide as though the party never ended. “Here’s to the next chapter, baby. Bring it on!”
 
 In the shadows, Indiana Jones tips his hat. “The adventure’s far from over.” And with that, Hollywood’s past and future collide, ready for the next great story to unfold.
-    
+
 ---
