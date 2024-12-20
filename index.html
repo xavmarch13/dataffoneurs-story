@@ -37,6 +37,8 @@ layout: default
 
   <div class="cf frame">
     {% for post in posts_sorted %}
+    {% unless post.exclude_from_index %}
+
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
         <div class="article-item">
           <header class="post-header">
@@ -52,6 +54,7 @@ layout: default
           </div>
         </div>
       </article>
+    {% endunless %}
     {% endfor %}
   </div>
   {% endif %}

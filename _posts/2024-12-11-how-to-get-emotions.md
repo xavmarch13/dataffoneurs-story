@@ -6,7 +6,7 @@ categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
 image: /assets/images/oppenheimer.jpg
 previous_post: /dataffoneurs-story/mediator/feature/2024/12/11/Presentation-of-the-dataset.html
-next_post: /dataffoneurs-story/mediator/feature/2024/12/11/Clustering.html
+next_post: /dataffoneurs-story/data analysis/sentiment analysis/movies/2024/12/11/general-emotion.html
 ---
 
 
