@@ -223,18 +223,6 @@ Neo's analysis revealed that while longer movies tend to exhibit slightly more c
 Neo reflected on this, thinking about how a movie’s emotional depth cannot be reduced to just its runtime. There’s more to the emotional storytelling—something hidden in the layers of the plot, the pacing, and the way the characters evolve.
 
 ---
-But there it is, Neo’s analysis is done. He's finished—for now. Or is he?
-
-<iframe src="{{ site.baseurl }}/assets\images\Trinity.webp" width="50%" height="350" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
-Here comes Morpheus. He’s not done yet. With an intense gaze and a commanding presence, he steps forward. “Neo,” he says, voice calm but unyielding. “The time for simple answers is over. You’ve scratched the surface. Now dig deeper. Analyze it by something other than genre. Show me the truth.”
-
-Neo sighs, knowing there’s no escaping Morpheus’ challenge. The journey isn’t over yet—he’s about to plunge back into the depths of the Matrix.
-
-As Morpheus turns away, his words echo like a riddle:
-
-Looks like Neo has no choice. He’s about to dive back in—whether he likes it or not. 
----
-
 Neo sits quietly, the faint hum of data streams echoing in the background, when Morpheus steps into the scene, his silhouette commanding attention. His voice is calm but laced with purpose.
 
 <iframe src="{{ site.baseurl }}/assets\images\large_landscape_175005.webp" width="100%" height="750" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
