@@ -32,7 +32,7 @@ So, what did we do? We rolled up our sleeves, put on our thinking caps, and mapp
 
 It’s like taking a scattered script and turning it into a blockbuster screenplay. Now, when you look at my genre distribution, you’re not just seeing data—you’re seeing a masterpiece of organization. Less confusion, more impact. And trust me, Jimmy, I’ve never looked better."
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/genre_mapping_for_action_adventure_category.html" width="100%" height="850" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/genre_mapping_for_action_adventure_category.html" width="100%" height="850" frameborder="0" style="border-left: 150px solid white;"></iframe>  
 
 and this is how I looked after mapping genres together:
 <iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/distribution_movie_genre_after_merge.html" width="100%" height="850" frameborder="0"></iframe>  
@@ -45,7 +45,7 @@ and this is how I looked after mapping genres together:
 **Dataset chuckles confidently**:  
 "Oh, you bet. Movies from all over the world, Jimmy. And I’ve been keeping track of their release dates too. Sure, we’ve got a bias toward the West and more recent films—Hollywood does love to dominate—but let’s not forget the hidden gems from every corner of the globe. Check this out:  
 
-<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/movie_where_and_when_subplots.html" width="100%" height="700" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/movie_where_and_when_subplots.html" width="100%" height="700" frameborder="0" style="border-left: 80px solid white;"></iframe>  
 
 What can I say? I’m a global phenomenon."  
 
@@ -57,7 +57,7 @@ What can I say? I’m a global phenomenon."
 
 **Dataset sighs**:  
 "Well, not exactly. Like every great story, mine had its challenges. Some of my movie summaries were... let’s just say, a little *thin*. Missing details, way too short, or just plain incomplete. So, we went out there, rolled up our sleeves, and *scraped* the data we needed to fill in the gaps.  
-<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/summary_lengths_comparison.html" width="100%" height="600" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/summary_lengths_comparison.html" width="100%" height="800" frameborder="0" scrolling="no"></iframe>  
 <iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/missing_values_summary.html" width="100%" height="750" frameborder="0"></iframe>  
 And Jimmy, that’s not all! We didn’t stop at summaries. Oh no, we went the extra mile and scraped **movie ratings** too. Now, I’m not just a storyteller—I’m a full-fledged movie critic. With this extra data, I’ve never looked better! You can see this histogram of the main ratings of the dataset right below!"  
 <iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/hist_ratings.html" width="100%" height="600" frameborder="0"></iframe>  
