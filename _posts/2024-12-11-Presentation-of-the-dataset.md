@@ -47,18 +47,6 @@ What can I say? I’m a global phenomenon."
 
 ---
 
-### *Jimmy Digs Deeper*  
-"Alright, but tell us—what about genres by continent? You’ve got something for everyone, don’t you?"  
-
-**Dataset nods knowingly**:  
-"Oh, absolutely. Different continents have their own movie vibes. Whether it’s Action in North America or Romantic dramas in Europe, I’ve got the scoop. Check out how the categories stack up by continent:  
-
-<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/distribution_of_movies_per_continent_subplots.html" width="100%" height="600" frameborder="0"></iframe>  
-
-Let’s just say, I’m the ultimate globe-trotting storyteller."  
-
----
-
 ### *When the Dataset Needed a Boost*  
 **Jimmy leans in, curious**:  
 "Alright, but come on, every star has had their struggles. What’s the behind-the-scenes story? Was it all smooth sailing?"  
@@ -66,7 +54,7 @@ Let’s just say, I’m the ultimate globe-trotting storyteller."
 **Dataset sighs**:  
 "Well, not exactly. Like every great story, mine had its challenges. Some of my movie summaries were... let’s just say, a little *thin*. Missing details, way too short, or just plain incomplete. So, we went out there, rolled up our sleeves, and *scraped* the data we needed to fill in the gaps.  
 <iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/summary_lengths_comparison.html" width="100%" height="600" frameborder="0"></iframe>  
-<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/missing_values_summary.html" width="100%" height="600" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/missing_values_summary.html" width="100%" height="750" frameborder="0"></iframe>  
 And Jimmy, that’s not all! We didn’t stop at summaries. Oh no, we went the extra mile and scraped **movie ratings** too. Now, I’m not just a storyteller—I’m a full-fledged movie critic. With this extra data, I’ve never looked better! You can see this histogram of the main ratings of the dataset right below!"  
 <iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/hist_ratings.html" width="100%" height="600" frameborder="0"></iframe>  
 

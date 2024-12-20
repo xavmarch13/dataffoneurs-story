@@ -26,8 +26,7 @@ Neo delves into the Matrix of Emotions to uncover the answers, guiding us throug
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="100%" height="625" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
 
-Peering at the boxplot data, Neo begins his analysis:
-
+Peering into the digital fabric of the boxplot data, Neo questions the anomaly: why does an emotion as peculiar as disgust surge with such intensity? The Matrix reveals a clue—neutral and disgust are linked by a negative correlation of -0.428 (p-value = 0). This connection, etched into the data, hints at an unseen balance between emotional extremes. With this initial revelation, Neo begins to decode the deeper patterns hidden within the emotional construct.
 ### Neo’s observations: the emotional code deciphered
 
 1. **Neutral as the anchor of the system**:  
