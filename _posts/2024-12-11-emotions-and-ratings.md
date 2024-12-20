@@ -68,7 +68,7 @@ We've uncovered something fascinating.
 Movies where sadness is the dominant emotion - and believe me, I've had my share of those moments in dark temples - actually score the highest ratings! They're followed closely by films dominated by joy, and then those powered by anger.
 
 But why do sad movies take the lead? Well, these films usually tackle deeper human experiences. They're like ancient scrolls that reveal profound truths about the human condition - not just entertainment, but real meaning.
-Remember how Drama had the highest mean ratings? Well, it's no coincidence then that sadness scores the highest in dominant emotions, as Drama is the genre that most often carries that emotional weight. It's like finding matching pieces of an ancient puzzle.
+Remember how Drama had the highest mean ratings? Well, it's no coincidence then that sadness scores the highest in dominant emotions, as Drama is the genre that most often carries that emotional weight.You saw that with my old friends Neo! The cluster 4 is the one with the most sadness and also the one with the biggest proportion of Drama movies... It's like finding matching pieces of an ancient puzzle.
 
 Now, here's where it gets interesting - films where fear leads the emotional charge actually received the lowest ratings. Apparently, audiences prefer their movies to dig deeper into other emotional territories.
 
