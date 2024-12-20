@@ -3,18 +3,18 @@ layout: post
 title:  "Presentation of the dataset!"
 weight: 1
 categories: mediator feature
-image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
-image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+image: /assets/images/jimmy_3.webp
+image2: /assets/images/jimmy_3.webp
 next_post: /dataffoneurs-story/data analysis/sentiment analysis/movies/2024/12/11/how-to-get-emotions.html
 ---
-# 🎥 *Ladies and Gentlemen, Please Welcome... the CMU Movie Summary Corpus Dataset!* 🎤
+# 🎥 *Ladies and gentlemen, please welcome... the CMU Movie Summary Corpus dataset!* 🎤
 
 **Jimmy Fallon enters, applause erupts**  
 "Alright, folks, you’re in for a real treat tonight! This isn’t just any regular guest. This is a STAR. A true legend of the cinematic universe. Please give a warm Late Night welcome to... the **CMU Movie Summary Corpus Dataset**!"
 
 ---
 
-### *The Dataset Takes the Stage*  
+### *The dataset takes the stage*  
 **The spotlight shines on the dataset, which speaks in a confident tone**:  
 "Thank you, Jimmy, and hello, everyone! Let me introduce myself. I’m the **CMU Movie Summary Corpus Dataset**, and let me tell you, I’ve got RANGE.  
 
@@ -35,11 +35,11 @@ It’s like taking a scattered script and turning it into a blockbuster screenpl
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/genre_mapping_for_action_adventure_category.html" width="100%" height="850" frameborder="0" style="border-left: 150px solid white;"></iframe>  
 
 and this is how I looked after mapping genres together:
-<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/distribution_movie_genre_after_merge.html" width="100%" height="850" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/distribution_movie_genre_after_merge.html" width="100%" height="850" frameborder="0" style="border-left: 100px solid white;"></iframe>  
 
 ---
 
-### *Jimmy Jumps In*  
+### *Jimmy jumps in*  
 "Wow, incredible! But that’s not all, is it? You’re global, right? You’re everywhere!"  
 
 **Dataset chuckles confidently**:  
@@ -51,7 +51,7 @@ What can I say? I’m a global phenomenon."
 
 ---
 
-### *When the Dataset Needed a Boost*  
+### *When the dataset needed a boost*  
 **Jimmy leans in, curious**:  
 "Alright, but come on, every star has had their struggles. What’s the behind-the-scenes story? Was it all smooth sailing?"  
 
@@ -60,19 +60,25 @@ What can I say? I’m a global phenomenon."
 <iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/summary_lengths_comparison.html" width="100%" height="800" frameborder="0" scrolling="no"></iframe>  
 <iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/missing_values_summary.html" width="100%" height="750" frameborder="0"></iframe>  
 And Jimmy, that’s not all! We didn’t stop at summaries. Oh no, we went the extra mile and scraped **movie ratings** too. Now, I’m not just a storyteller—I’m a full-fledged movie critic. With this extra data, I’ve never looked better! You can see this histogram of the main ratings of the dataset right below!"  
-<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/hist_ratings.html" width="100%" height="600" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/hist_ratings.html" width="110%" height="520" frameborder="0"></iframe>  
 
 ---
 
 
-### *Jimmy’s Big Reveal*  
+### *Jimmy’s big reveal*  
 "Alright, alright, let’s get real. This dataset isn’t just sitting in some library, folks. No, this dataset is a STAR. You’ve seen it in the biggest blockbusters:  
 
-- *Oppenheimer*: 'The science behind the scenes.'  
-- *Barbie*: 'Pink never looked so data-driven.'  
-- *Enigma*: 'Where plot twists meet reality.'  
-- *Babylon*: 'Cinema in its purest form.'  
-- *Indiana Jones*: 'Archaeology of cinema history.'  
+- **Oppenheimer: The science behind the scenes**  
+    *Oppenheimer discovers sentiment analysis*
+
+- **Matrix: Emotions reloaded**  
+    *Neo's Journey Through Emotion: Uncovering Patterns in Film Sentiment*
+
+- **Babylon: Cinema in its purest form**  
+    *Babylon and the emotional evolution of cinema: how sound, color, and history redefined storytelling*
+
+- **Indiana Jones: Archaeology of cinema history**  
+    *Indiana Jones and the map of movie success: following the emotional trail*
 
 And tonight, we’re going to dive into the dataset’s career. What made it a star? How did it land these big roles? And what’s next? Stick around to find out—it’s going to be one epic Late Night deep dive!"  
 
