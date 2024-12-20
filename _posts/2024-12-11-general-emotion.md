@@ -192,26 +192,17 @@ These results could be related to the lower number of movies in Oceania, South A
 
 **The Oracle appears, her calm yet cryptic demeanor radiating wisdom. She smiles knowingly and leans forward, speaking in her usual enigmatic tone:**  
 
-<iframe src="{{ site.baseurl }}/assets/images\Neo-and-The-Oracle-in-The-Matrix-Reloaded.png" width="100%" height="800" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
+<iframe src="{{ site.baseurl }}/assets/images\Neo-and-The-Oracle-in-The-Matrix-Reloaded.png" width="100%" height="800" frameborder="0" style="max-width: 100%; border-left: 100px solid white;"></iframe>
 
-"Ah, you've come far in understanding emotions and stories. But let me ask you something new, something unexpected…"
-
-**"Do longer movies tell more complex emotional stories?"**  
-
-Her words hang like a riddle, challenging Neo to think deeper. She tilts her head, her smile widening, as if she already knows the answer—but leaves it for you to uncover.
-
+"Ah, you've come far in understanding emotions and stories. But let me ask you something new, something unexpected…" 
 ## **Do longer movies tell more complex emotional stories?**
 
-As Neo delves into streams of data, the Oracle's question lingers in his mind, pushing him to uncover its answer.
+Her words hang like a riddle, challenging Neo to think deeper. She tilts her head, her smile widening, as if she already knows the answer—but leaves it for Neo to uncover. As Neo delves into streams of data, the Oracle's question lingers in his mind, pushing him to uncover its answer.
 
 Movies have the power to evoke a spectrum of emotions, from joy and sadness to anger and surprise. But does the length of a movie influence how complex its emotional journey can be? In this analysis, Neo explores whether longer movies, with runtimes exceeding 2 hours, exhibit more intricate emotional arcs compared to their shorter counterparts. By analyzing emotional metrics derived from sentiment analysis, Neo investigates the relationship between runtime and emotional storytelling.
 
 Neo, as usual, dives into the data with his characteristic curiosity, seeing the emotional journey of each movie as a code waiting to be cracked.
-
-
-
 ## Results
-
 ### Emotional Complexity vs Runtime
 
 When comparing emotional complexity metrics (amplitude, standard deviation, and sum of absolute changes) between short and long movies, Neo observed that:
@@ -229,7 +220,6 @@ Neo computed the correlation between runtime and emotional complexity metrics fo
 <iframe src="{{ site.baseurl }}/assets\plot\emotional_arcs_in_movies\correlation_emotional_variation.html" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 The correlation varied depending on the emotion considered. The highest correlation was for disgust, suggesting that as the movie length increases, the variation in this emotion also increases, leading to more emotional complexity. There were notable differences in correlation for emotions like anger, disgust, joy, and neutral, while fear, sadness, and surprise showed very low correlation between runtime and emotional variation.
-
 
 The correlation was positive but weak (r ≈ 0.15), suggesting that while runtime contributes to emotional complexity, other narrative elements play significant roles.
 
