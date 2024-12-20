@@ -74,6 +74,14 @@ Now, here's where it gets interesting - films where fear leads the emotional cha
 
 *Pulls out a continental map*
 
+<iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/figasiana.html" 
+    width="100%" 
+    height="400" 
+    frameborder="0" 
+    scrolling="no" 
+    style="overflow: hidden; min-width: 800px;">
+</iframe>
+
 But the most remarkable findings came from our continental excavation. Out of all the regions we studied, only North America and Asia showed statistically significant patterns - like finding two distinct civilizations with clear, measurable differences in their artifact preferences. 
 The most striking contrast between these two cultures? Their reaction to disgust-dominant films. In Asia, these productions receive their highest average ratings, suggesting a unique cultural appreciation for this type of emotional storytelling. Meanwhile, North American audiences consistently rate these same types of films among their lowest - it's like discovering two ancient cultures had completely opposite uses for the same artifact.
 
