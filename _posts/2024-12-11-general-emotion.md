@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Neo's Journey Through Emotion: Uncovering Patterns in Film Sentiment"
+title:  "Neo's journey through emotion: uncovering patterns in film sentiment"
 weight:  3
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
@@ -125,7 +125,7 @@ Neo identifies three emotions—anger, joy, and disgust—that seem to transcend
 
 Neo's analysis reveals that some emotions, such as anger, joy, and disgust, follow very similar trajectories regardless of the genre. In contrast, emotions like fear, sadness, and surprise show significant variability depending on the type of story being told.
 
-Joy usually starts high, then drops as we move further in the story, only to rise back up at the end, reflecting resoltuion
+Joy usually starts high, then drops as we move further in the story, only to rise back up at the end, reflecting resolution
 
 But Neo, ever the questioner, probes further. Why do some genres, like Horror or Romance, deviate from this structure? The answer lies in how emotions function within different storytelling frameworks and this distinction can be understood by examining the **storytelling conventions** and the **inherent characteristics** of these emotions. 
 
@@ -147,11 +147,11 @@ This universal structure suggests that filmmakers rely on common narrative techn
 
 ### **3. Emotional functions in storytelling**  
 
-- **Primary vs. Contextual emotions:**  
+- **Primary vs. contextual emotions:**  
   Neo finds that motions like anger, joy, and disgust serve as "primary emotions", essential for driving the plot and defining key narrative moments. On the other hand, fear, sadness, and surprise act as "contextual emotions," their intensity and role dictated by the genre’s tone and purpose.  
 
 - **Meeting audience expectations:**  
-  Audience expectations also play a significant role in shaping emotional arcs. For example, Horror audiences anticipate fear and surprise, while Drama viewers expect a mix of sadness and joy. Disgust, meanwhile, serves as a versatile tool across genres, punctuating specific scenes without dominating the narrative.  
+  Audience expectations also play a significant role in shaping emotional arcs. For example, horror audiences anticipate fear and surprise, while drama viewers expect a mix of sadness and joy. Disgust, meanwhile, serves as a versatile tool across genres, punctuating specific scenes without dominating the narrative.  
 
 ### **Conclusion**  
 

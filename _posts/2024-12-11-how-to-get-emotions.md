@@ -34,7 +34,7 @@ Oppenheimer was now faced with yet another problem. How was he going to be compa
 As a perfectionist, he also gave two different ways of visualizing his end results for a movie.
 
 1. **True Emotional Data:** Raw output from sentiment analysis after interpolation.
-    <iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/emotional_arc_of_the_movie.html" width="100%" height="600" frameborder="0"></iframe>
+    <iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/emotional_arc_of_the_movie.html" width="100%" height="650" frameborder="0"></iframe>
 2. **Strongest Emotion Highlighted:** A visualization emphasizing the dominant emotion at each timestep.
     <iframe src="{{ site.baseurl }}/assets/plot/how_to_get_emotions/strongest_emotion_highlighted_across_timesteps.html" width="100%" height="600" frameborder="0"></iframe>
 
