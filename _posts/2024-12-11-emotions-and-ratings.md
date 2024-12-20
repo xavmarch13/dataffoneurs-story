@@ -197,7 +197,7 @@ Well folks, after years of exploring ancient temples, I've stumbled upon somethi
     height="1400" 
     frameborder="0" 
     scrolling="no" 
-    style="overflow: hidden; min-width: 800px;">
+    style="overflow: hidden; min-width: 800px;border-left: 120px solid white;">
 </iframe>
 
 The most remarkable discovery is cluster 1 for joy - it's like finding the Holy Grail of emotional patterns! This cluster emerges as the champion across six different genres, from Action/Adventure to Horror. It's clearly got something special in its DNA that resonates with audiences.
