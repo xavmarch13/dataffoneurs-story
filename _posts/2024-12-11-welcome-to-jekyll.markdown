@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Babylon and the emotional evolution of cinema: how sound, color, and history redefined storytelling"
-weight: 5
+weight: 4
 categories: jekyll update
 image: /assets/plots_alix/babylon-2022.png
 header_image: /assets/plots_alix/babylon-2022.png
