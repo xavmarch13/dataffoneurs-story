@@ -24,6 +24,7 @@ Neo delves into the Matrix of Emotions to uncover the answers, guiding us throug
 
 ### Average analysis
 
+<<<<<<< Updated upstream
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="100%" height="625" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
 
 Peering at the boxplot data, Neo begins his analysis:
@@ -42,6 +43,25 @@ Peering at the boxplot data, Neo begins his analysis:
 4. **Fear Looms Over Joy**:  
    Fear emerges with a slight edge over joy, its intensity more persistent. “Fear is the shadow,” Neo says, noting how it subtly shapes narratives by raising stakes and creating tension. It’s the unseen hand that drives decisions and heightens the impact of climactic moments. Joy, though present, often acts as a counterbalance, offering fleeting moments of triumph or relief. “In the matrix of emotions, fear is the architect, and joy is the release valve.”
 
+=======
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="84%" height="625" frameborder="0"></iframe>
+Peering at the boxplot data, Neo begins his analysis:
+
+### Neo’s Observations: The Emotional Code Deciphered
+
+1. **Neutral as the Anchor of the System**:  
+   Neo scans the data, his mind piecing together the bigger picture. “Neutrality reigns supreme,” he states, noting its vast range and numerous outliers. It’s not just the most frequent state but the foundation of all narratives. Neutrality is the emotional baseline—a steady hum in the background that allows other emotions to rise, peak, and fade. “It’s the matrix itself,” Neo reflects. “Invisible, but omnipresent, shaping the framework of every story.”
+
+2. **Disgust Commands the Stage**:  
+   As Neo dives deeper, disgust emerges as a dominant force. Its broad range and consistent intensity suggest it’s a key driver of conflict in narratives. “Disgust reveals the fractures,” Neo says, recognizing its role in exposing societal norms, moral dilemmas, or outright corruption. It’s the emotion that forces characters—and viewers—to confront what’s wrong. “Without disgust,” he muses, “there’s no call to action, no resistance to the system.”
+
+3. **Sadness and Anger: The Emotional Tug of War**:  
+   Neo narrows his focus on sadness and anger, their distributions nearly identical. “They’re intertwined,” he says, observing how these emotions often coexist in stories. Sadness pulls characters inward, forcing reflection and vulnerability, while anger pushes them outward, driving action. “Together, they’re the engine of transformation,” Neo concludes. “One breaks you down; the other propels you forward.”
+
+4. **Fear Looms Over Joy**:  
+   Fear emerges with a slight edge over joy, its intensity more persistent. “Fear is the shadow,” Neo says, noting how it subtly shapes narratives by raising stakes and creating tension. It’s the unseen hand that drives decisions and heightens the impact of climactic moments. Joy, though present, often acts as a counterbalance, offering fleeting moments of triumph or relief. “In the matrix of emotions, fear is the architect, and joy is the release valve.”
+
+>>>>>>> Stashed changes
 5. **Surprise: The System’s Glitch**:  
    Surprise stands apart with its minimal range and intensity. “It’s small but mighty,” Neo remarks. Unlike other emotions, surprise doesn’t linger—it strikes suddenly and fades just as quickly. Yet, its impact is undeniable, disrupting the flow of the story and introducing twists that reconfigure the narrative. “Surprise is the glitch in the code,” he says. “It’s what makes the matrix—and the story—unpredictable.”
 
@@ -51,12 +71,16 @@ Neo steps back, connecting the dots. “Every emotion plays its role,” he obse
 ### Time-series analysis
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/normalised_emotions_time_analysis.html
+<<<<<<< Updated upstream
 " width="95%" height="625" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
 
 #### Neo's Observations:
 1. *Initial Spike and Divergence*:
    - *Anger* starts with the lowest normalized intensity, then gradually rises during the story. Towards the end, anger experiences a significant decline.  
      *Interpretation*: Anger’s gradual rise and decline suggest it plays a role in building tension throughout the narrative, but it often resolves or diminishes by the conclusion.
+=======
+" width="84%" height="650" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+>>>>>>> Stashed changes
 
 #### Neo’s Observations: Decoding the Emotional Matrix
 
@@ -99,7 +123,11 @@ Neo smirks as he looks at the data. “This isn’t just a pattern,” he says. 
 
 ### Average analysis
 
+<<<<<<< Updated upstream
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="625" frameborder="0" style=" border-left: 170px solid white;"></iframe>
+=======
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="620" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+>>>>>>> Stashed changes
 
 #### Neo’s Analysis: Emotional Averages Across Genres  
 As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how different genres evoke distinct emotional intensities. Here are his key insights:
@@ -120,7 +148,11 @@ As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how d
 
 To visualize emotional trajectories, Neo plotted the normalized emotional arcs for each genre over 20 timesteps. 
 
+<<<<<<< Updated upstream
 <iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="110%" height="830" frameborder="0" style="max-width: 110%; display: block; margin-left:auto; margin-right: auto"></iframe>
+=======
+<iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="120%" height="850" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+>>>>>>> Stashed changes
 
 
 ### The Consistent Rhythm of Emotional Arcs Across Genres    
@@ -165,7 +197,12 @@ Much like Neo’s journey, the emotional arcs of movies reflect both universal t
 # Emotions and continents
 
 ### Average analysis
+<<<<<<< Updated upstream
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="620" frameborder="0" style="max-width: 100%; border-left: 170px solid white;"></iframe>
+=======
+
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="650" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
+>>>>>>> Stashed changes
 
 Neo examines the heatmap of emotional intensity across continents, uncovering fascinating regional patterns:  
 
