@@ -32,7 +32,11 @@ So, what did we do? We rolled up our sleeves, put on our thinking caps, and mapp
 
 It’s like taking a scattered script and turning it into a blockbuster screenplay. Now, when you look at my genre distribution, you’re not just seeing data—you’re seeing a masterpiece of organization. Less confusion, more impact. And trust me, Jimmy, I’ve never looked better."
 
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/genre_mapping_for_action_adventure_category.html" width="100%" height="900" frameborder="0"></iframe>  
+<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/genre_mapping_for_action_adventure_category.html" width="100%" height="850" frameborder="0"></iframe>  
+
+and this is how I looked after mapping genres together:
+<iframe src="{{ site.baseurl }}/assets/plot/dataset_presentation/distribution_movie_genre_after_merge.html" width="100%" height="850" frameborder="0"></iframe>  
+
 ---
 
 ### *Jimmy Jumps In*  
