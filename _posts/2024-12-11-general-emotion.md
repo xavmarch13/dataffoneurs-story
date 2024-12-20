@@ -24,13 +24,8 @@ Neo delves into the Matrix of Emotions to uncover the answers, guiding us throug
 
 ### Average analysis
 
-<<<<<<< Updated upstream
-
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="100%" height="625" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
 
-=======
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="84%" height="625" frameborder="0"></iframe>
->>>>>>> Stashed changes
 Peering at the boxplot data, Neo begins his analysis:
 
 ### Neo’s Observations: The Emotional Code Deciphered
@@ -56,16 +51,12 @@ Neo steps back, connecting the dots. “Every emotion plays its role,” he obse
 ### Time-series analysis
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/normalised_emotions_time_analysis.html
-<<<<<<< Updated upstream
 " width="95%" height="625" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
 
 #### Neo's Observations:
 1. *Initial Spike and Divergence*:
    - *Anger* starts with the lowest normalized intensity, then gradually rises during the story. Towards the end, anger experiences a significant decline.  
      *Interpretation*: Anger’s gradual rise and decline suggest it plays a role in building tension throughout the narrative, but it often resolves or diminishes by the conclusion.
-=======
-" width="84%" height="650" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
->>>>>>> Stashed changes
 
 #### Neo’s Observations: Decoding the Emotional Matrix
 
@@ -108,11 +99,7 @@ Neo smirks as he looks at the data. “This isn’t just a pattern,” he says. 
 
 ### Average analysis
 
-<<<<<<< Updated upstream
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="625" frameborder="0" style=" border-left: 170px solid white;"></iframe>
-=======
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="620" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
->>>>>>> Stashed changes
 
 #### Neo’s Analysis: Emotional Averages Across Genres  
 As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how different genres evoke distinct emotional intensities. Here are his key insights:
@@ -133,11 +120,7 @@ As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how d
 
 To visualize emotional trajectories, Neo plotted the normalized emotional arcs for each genre over 20 timesteps. 
 
-<<<<<<< Updated upstream
 <iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="110%" height="830" frameborder="0" style="max-width: 110%; display: block; margin-left:auto; margin-right: auto"></iframe>
-=======
-<iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="120%" height="850" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
->>>>>>> Stashed changes
 
 
 ### The Consistent Rhythm of Emotional Arcs Across Genres    
@@ -182,12 +165,7 @@ Much like Neo’s journey, the emotional arcs of movies reflect both universal t
 # Emotions and continents
 
 ### Average analysis
-<<<<<<< Updated upstream
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="620" frameborder="0" style="max-width: 100%; border-left: 170px solid white;"></iframe>
-=======
-
-<iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_continent.html" width="100%" height="650" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
->>>>>>> Stashed changes
 
 Neo examines the heatmap of emotional intensity across continents, uncovering fascinating regional patterns:  
 
@@ -254,7 +232,6 @@ Neo sighs, knowing there’s no escaping Morpheus’ challenge. The journey isn�
 
 As Morpheus turns away, his words echo like a riddle:
 
-<<<<<<< Updated upstream
 Looks like Neo has no choice. He’s about to dive back in—whether he likes it or not. 
 ---
 
@@ -269,11 +246,6 @@ He pauses, shifting his gaze to the left. “In my left hand, the **blue pill**�
 Morpheus steps closer, his eyes piercing. “Choose wisely. The **red pill** dives into complexity, embracing the chaos of storytelling arcs. The **blue pill** offers clarity, a streamlined view of emotional trends. Either way, the data will reveal its secrets—but only one path leads to the full depth of the narrative.”
 
 Neo hesitates, his gaze flicking between the two pills. What will he choose? The structured elegance of PCA clustering or the intricate adaptability of K-Shape clustering? The journey into emotional analysis awaits. 
-=======
-“Storytelling is about choice, Neo. The red pill or the blue, the emotions we wield, the truths we uncover—they shape the tales we tell. Now, ask yourself… what’s your choice?”
-
-METTRE PHOTO DE MORPHEUS
->>>>>>> Stashed changes
 
 <div class="dropdown-buttons">
   <div class="dropdown-container-blue">
