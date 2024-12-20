@@ -124,7 +124,7 @@ We can now perform a correlation between these four emotional diversity metrics 
 
 The data shows something fascinating - like finding a small positive inscription on an ancient tablet. It shows a positive connection, meaning movies with more emotional variety do tend to get better ratings, but this correlation is as subtle as the markings on the Staff of Ra - significant if you know what you're looking for, but easy to miss if you're not paying attention.
 
-<iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/correlation_continent_diversity.html" 
+<iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/fig_correlation_metrics_ratings.html" 
     width="100%" 
     height="700" 
     frameborder="0" 

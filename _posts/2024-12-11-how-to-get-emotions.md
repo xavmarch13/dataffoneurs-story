@@ -29,7 +29,7 @@ Faced with the challenge of segmenting movie plots into time-series, Oppenheimer
 
 <br />
 
-Oppenheimer was now faced with yet another problem. How was he going to be comparing time-series of such a variety of sizes ? Helped with the previously found median of 17 sentences per film. He concluded that evaluating movies in 20 points would be enough. Therefore he finally we interpolated (or extrapolated when needed) all emotional arcs to fit 20 timesteps.
+Oppenheimer was now faced with yet another problem. How was he going to be comparing time-series of such a variety of sizes ? Helped with the previously found median of 17 sentences per film. He concluded that evaluating movies in 20 points would be enough. Therefore he finally interpolated (or extrapolated when needed) all emotional arcs to fit 20 timesteps.
 
 As a perfectionist, he also gave two different ways of visualizing his end results for a movie.
 
