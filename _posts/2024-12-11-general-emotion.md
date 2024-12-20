@@ -24,63 +24,73 @@ Neo delves into the Matrix of Emotions to uncover the answers, guiding us throug
 
 ### Average analysis
 
-
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/average_emotion_intensity_across_movies.html" width="100%" height="625" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
 
 Peering at the boxplot data, Neo begins his analysis:
 
-#### Neo’s Observations:
-1. *Neutral Dominates*:  
-   Neo notices that the neutral emotion reigns supreme, showing the highest overall intensity. Its broad range and numerous outliers reveal that neutral sentiment is globally prevalent, acting as a baseline or anchor emotion in many stories. “It’s the calm before the storm,” Neo mutters, recognizing how neutrality often serves as the foundation from which other emotions emerge.
+### Neo’s observations: the emotional code deciphered
 
-2. *Sadness and Joy Stand Out*:  
-   As Neo traces the distributions of sadness and joy, he notes their similar ranges. Sadness, however, has a slightly broader spread and more pronounced outliers. “Sadness... the weight of loss,” Neo reflects, recognizing its frequent, varied presence in narratives. Joy, on the other hand, represents moments of triumph, its distribution slightly narrower but still impactful. Together, these emotions mirror the rise and fall of human experience.
+1. **Neutral as the anchor of the system**:  
+   Neo scans the data, his mind piecing together the bigger picture. “Neutrality reigns supreme,” he states, noting its vast range and numerous outliers. It’s not just the most frequent state but the foundation of all narratives. Neutrality is the emotional baseline—a steady hum in the background that allows other emotions to rise, peak, and fade. “It’s the matrix itself,” Neo reflects. “Invisible, but omnipresent, shaping the framework of every story.”
 
-3. *Anger, Disgust, Fear, and Surprise Are Less Prominent*:  
-   Neo points out that these four emotions have lower intensities compared to neutral and sadness. Anger, however, stands apart with a wider range. “Anger spikes,” Neo notes, “but it rarely lingers—it’s sharp, fleeting, and focused.” Surprise, meanwhile, has the smallest range, its bursts brief but meaningful, like the unexpected twists in the Matrix itself.
+2. **Disgust commands the stage**:  
+   As Neo dives deeper, disgust emerges as a dominant force. Its broad range and consistent intensity suggest it’s a key driver of conflict in narratives. “Disgust reveals the fractures,” Neo says, recognizing its role in exposing societal norms, moral dilemmas, or outright corruption. It’s the emotion that forces characters—and viewers—to confront what’s wrong. “Without disgust,” he muses, “there’s no call to action, no resistance to the system.”
 
-As Neo steps back, the patterns become clear. Each box in the plot represents a world of emotion—some dominant, others fleeting. Neutral anchors the journey, sadness gives it depth, joy offers relief, and anger, disgust, fear, and surprise provide sharp contrasts.
+3. **Sadness and anger: the emotional tug of war**:  
+   Neo narrows his focus on sadness and anger, their distributions nearly identical. “They’re intertwined,” he says, observing how these emotions often coexist in stories. Sadness pulls characters inward, forcing reflection and vulnerability, while anger pushes them outward, driving action. “Together, they’re the engine of transformation,” Neo concludes. “One breaks you down; the other propels you forward.”
+
+4. **Fear looms over joy**:  
+   Fear emerges with a slight edge over joy, its intensity more persistent. “Fear is the shadow,” Neo says, noting how it subtly shapes narratives by raising stakes and creating tension. It’s the unseen hand that drives decisions and heightens the impact of climactic moments. Joy, though present, often acts as a counterbalance, offering fleeting moments of triumph or relief. “In the matrix of emotions, fear is the architect, and joy is the release valve.”
+
+
+5. **Surprise: the system’s glitch**:  
+   Surprise stands apart with its minimal range and intensity. “It’s small but mighty,” Neo remarks. Unlike other emotions, surprise doesn’t linger—it strikes suddenly and fades just as quickly. Yet, its impact is undeniable, disrupting the flow of the story and introducing twists that reconfigure the narrative. “Surprise is the glitch in the code,” he says. “It’s what makes the matrix—and the story—unpredictable.”
+
+### The bigger picture  
+Neo steps back, connecting the dots. “Every emotion plays its role,” he observes. Neutrality anchors the system, while disgust challenges it, anger and sadness drive transformation, fear builds tension, joy provides relief, and surprise keeps us guessing. Together, they form a dynamic network, shaping not just stories, but the human experience itself. “This isn’t just data,” Neo says with a smirk. “It’s the blueprint of life.”
 
 ### Time-series analysis
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/normalised_emotions_time_analysis.html
 " width="95%" height="625" frameborder="0" style="max-width: 100%; border-left: 150px solid white;"></iframe>
 
-#### Neo's Observations:
-1. *Initial Spike and Divergence*:
-   - *Anger* starts with the lowest normalized intensity, then gradually rises during the story. Towards the end, anger experiences a significant decline.  
-     *Interpretation*: Anger’s gradual rise and decline suggest it plays a role in building tension throughout the narrative, but it often resolves or diminishes by the conclusion.
 
-   - *Joy* follows an inverse emotional arc, starting with a high normalized intensity, only to decline in the middle of the movie, and then rising back up towards the end.  
-     *Interpretation*: Joy’s trajectory reflects uplifting beginnings and endings, bookending stories with hope or positivity despite darker or challenging middle arcs.
+#### Neo’s observations: decoding the emotional matrix
 
-   - *Sadness* is high at the start of the story but declines quickly right after. In the middle of the story, *sadness* steadily increases throughout the timeline, becoming significant toward the later timesteps, before dropping back down at the end of the story.  
-     *Interpretation*: Sadness appears to underpin pivotal emotional moments in the story, particularly in climaxes or resolutions, before giving way to a more uplifting or neutral conclusion.
+1. **Initial spike and divergence**:  
+   Neo stares into the data, the emotional arcs forming lines of code in his mind.  
+   - **Anger** begins as a whisper, a low-intensity undercurrent in the system, but it grows, climbing steadily as the narrative unfolds. Toward the end, it collapses, like tension unwinding from a coiled spring.  
+     **Interpretation**: “Anger is the fuel for conflict,” Neo murmurs. “It rises with tension but cannot sustain itself—it fades as the system stabilizes.”
 
-   - Emotions like *fear* and *disgust* show similarities in their emotional arcs, both starting with high normalized intensity. Although *fear* remains quite constant during the story, unlike *disgust*, which starts declining early, they both end up with very low normalized intensity near the end due to a drop near the story's conclusion.  
-     *Interpretation*: Fear and disgust are essential in maintaining tension and unease during narratives but are typically resolved by the end, reflecting catharsis or resolution for audiences.
+   - **Joy** takes the opposite path. It starts strong, dips in the middle, and surges again at the end.  
+     **Interpretation**: “Joy is the bookend of the story,” Neo says. “It’s the hope that sparks the beginning and the light that guides us out of the darkness.”
 
-2. *Surprise and Neutral*:
-   - *Surprise* follows a unique trajectory, starting with very low normalized intensity, showing multiple peaks throughout the evolution of the timesteps, and ending with a middle intensity.  
-     *Interpretation*: Surprise acts as a dynamic element, punctuating the narrative with moments of unexpected turns before stabilizing toward the end. This mirrors its role in maintaining audience engagement and unpredictability.
+   - **Sadness** rises early, a heavy weight that dips quickly before growing steadily through the middle, peaking near the climax, and then falling away as the resolution approaches.  
+     **Interpretation**: “Sadness carries the burden of truth,” Neo whispers. “It’s the emotion that forces us to face the inevitabilities of life. But even it cannot linger forever—it gives way to closure.”
 
-   - *Neutral* starts low at the beginning, then remains relatively stable throughout the story, only to spike heavily at the end and finish with a very high normalized intensity score.  
-     *Interpretation*: Neutral states serve as transitions or resting points in narratives but often dominate endings, reflecting closure or resolution.
+   - **Fear** and **disgust** move in tandem. Both start high, setting a tone of unease. But while **fear** remains steady, **disgust** begins its decline early, and both fall away by the story’s conclusion.  
+     **Interpretation**: Neo narrows his gaze. “These are the emotions that disrupt the code. They create tension and unease but must be purged for the system to find balance.”
 
-3. *Final Convergence*:
-   - In the later timesteps, most emotions converge toward lower normalized values, except for *joy* and *neutral*, which dominate the emotional spectrum as climaxes are reached.  
-     *Interpretation*: This convergence highlights how narratives resolve emotional conflicts, leaving audiences with feelings of hope (joy) or stability (neutral).
+2. **The Dynamic Duo: Surprise and Neutral**:  
+   - **Surprise** zigzags unpredictably, spiking and dipping throughout the narrative before settling into a middle intensity at the end.  
+     **Interpretation**: “Surprise is the glitch in the system,” Neo notes. “It’s the unpredictable anomaly, breaking monotony and forcing the audience to adapt to the unexpected.”
 
-#### Overall Interpretation:
-This normalized analysis highlights the interplay and relative importance of different emotions across a narrative timeline:
-- *Anger* and *fear* are central to maintaining emotional tension over time, while their resolution by the end aligns with the catharsis typical of storytelling.
-- *Sadness* plays a pivotal role in emotional climaxes or dramatic peaks, often tied to critical story moments.
-- *Joy* and *neutral* emotions dominate at the start and end, framing stories with positivity and resolution, even after emotionally intense arcs.
-- The dynamic nature of *surprise* punctuates stories, contributing to unpredictability and engagement.
+   - **Neutral** begins quietly, a background hum that grows in strength. By the end, it dominates, becoming the highest-intensity emotion.  
+     **Interpretation**: “Neutrality is the foundation,” Neo explains. “It stabilizes the chaos. When all other emotions fade, it remains—strong, unshaken, and absolute.”
 
-This pattern reflects the structure of many narratives, where lighter emotions provide balance, and darker emotions drive conflict, with resolution or positivity prevailing by the end.
+3. **Final Convergence**:  
+   Neo sees the lines of emotion converging toward the end, a clear signal in the noise.  
+   - As the timeline reaches its climax, most emotions—**anger**, **fear**, **sadness**, and even **surprise**—fade into lower intensities. Only **joy** and **neutral** persist, dominating the spectrum as the narrative resolves.  
+     **Interpretation**: “This is how stories end,” Neo observes. “Conflict fades, tension resolves, and what’s left is either hope or balance. The system restores itself, leaving us with peace or satisfaction.”
 
+#### Neo’s final analysis:  
+Neo steps back, the patterns of the emotional matrix etched in his mind.  
+- **Anger** and **fear** are the disruptors, rising and falling with the story’s tension. They are the sparks that ignite conflict but must fade for resolution to emerge.  
+- **Sadness** serves as the weight of truth, peaking at pivotal moments and shaping the emotional core of the narrative.  
+- **Joy** and **neutrality** are the stabilizers, framing stories with hope and balance, guiding us through the storm and delivering us to resolution.  
+- **Surprise** is the glitch, the unpredictable burst that keeps the system alive, dynamic, and engaging.
 
+Neo smirks as he looks at the data. “This isn’t just a pattern,” he says. “It’s the blueprint of the human condition, a reflection of how we navigate chaos, find meaning in conflict, and restore balance to our own systems.”  
 
 # Emotions and genres
 
@@ -88,31 +98,30 @@ This pattern reflects the structure of many narratives, where lighter emotions p
 
 <iframe src="{{ site.baseurl }}/assets/plot/general_emotions/heatmap_avg_emotion.html" width="100%" height="625" frameborder="0" style=" border-left: 170px solid white;"></iframe>
 
-#### Neo’s Analysis: Emotional Averages Across Genres  
+#### Neo’s analysis: emotional averages across genres  
 As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how different genres evoke distinct emotional intensities. Here are his key insights:
 
-1. *Disgust Peaks in Horror*:  
-   Neo immediately notices that the emotion of *disgust* is most prevalent in the Horror genre, where its intensity far surpasses that in other genres. “Horror thrives on discomfort,” Neo remarks, “and disgust is a key driver of that visceral reaction.”
+1. **Disgust Peaks in Horror**:  
+   Neo immediately notices that the emotion of **disgust** is most prevalent in the Horror genre, where its intensity far surpasses that in other genres. “Horror thrives on discomfort,” Neo remarks, “and disgust is a key driver of that visceral reaction.”
 
-2. *Sadness Dominates Drama and Romance*:  
-   In both Drama and Romance, *sadness* emerges as a defining emotion, with the highest average intensities compared to other emotions. 
+2. **Sadness Dominates Drama and Romance**:  
+   In both Drama and Romance, **sadness** emerges as a defining emotion, with the highest average intensities compared to other emotions. 
 
-3. *Joy Shines in Comedy*:  
-   The Comedy genre sees *joy* as its most prominent emotion, reflecting its purpose of uplifting and entertaining audiences of all ages.
+3. **Joy Shines in Comedy**:  
+   The Comedy genre sees **joy** as its most prominent emotion, reflecting its purpose of uplifting and entertaining audiences of all ages.
 
-4. *Fear in Horror and Thriller*:  
-   Unsurprisingly, *fear* is most intense in the Horror and Thriller genres. While horror focuses on dread and terror, thrillers use fear to build tension and suspense. “These genres rely on keeping audiences on the ed  
+4. **Fear in Horror and Thriller**:  
+   Unsurprisingly, **fear** is most intense in the Horror and Thriller genres. While horror focuses on dread and terror, thrillers use fear to build tension and suspense. “These genres rely on keeping audiences on the ed  
 
-### Visualizing Emotional Arcs by Genre
+### Visualizing emotional arcs by genre
 
 To visualize emotional trajectories, Neo plotted the normalized emotional arcs for each genre over 20 timesteps. 
 
 <iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="110%" height="830" frameborder="0" style="max-width: 110%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
+### The consistent rhythm of emotional arcs across genres    
 
-### The Consistent Rhythm of Emotional Arcs Across Genres    
-
-### Universal vs. Genre-Specific Emotional Patterns  
+### Universal vs. Genre-specific emotional patterns  
 Neo identifies three emotions—anger, joy, and disgust—that seem to transcend genre boundaries.
 
 Neo's analysis reveals that some emotions, such as anger, joy, and disgust, follow very similar trajectories regardless of the genre. In contrast, emotions like fear, sadness, and surprise show significant variability depending on the type of story being told.
@@ -123,35 +132,31 @@ But Neo, ever the questioner, probes further. Why do some genres, like Horror or
 
 This universal structure suggests that filmmakers rely on common narrative techniques to captivate audiences across different genres.  
 
-### **1. The Universal Role of Joy, Anger, and Disgust**  
+### **1. The universal role of joy, anger, and disgust**  
 
-- **Joy and Anger as Narrative Pillars:**  
+- **Joy and anger as narrative pillars:**  
 
-Neo realizes that filmmakers use emotions strategically to meet audience expectations:
+  Neo realizes that filmmakers use emotions strategically to meet audience expectations:
 
-Joy and anger are universal emotions that frequently shape the core of cinematic storytelling. **Joy** usually starts high, then drops as we move further in the story, only to rise back up at the end, reflecting resolution, triumph, or humor, while **anger** starts low only to rise during the movie, to finally drops back down at the end, reflecting that anger grows during moments of conflict, betrayal, or injustice in the middle of the movie, and drop at the end when there's triumph, resolution or humor. These elements are staples of nearly every genre, ensuring that joy and anger arcs remain largely consistent across diverse narratives. These emotions mirror Neo’s journey through struggle, revelation, and triumph.
+  Joy and anger are universal emotions that frequently shape the core of cinematic storytelling. **Joy** usually starts high, then drops as we move further in the story, only to rise back up at the end, reflecting resolution, triumph, or humor, while **anger** starts low only to rise during the movie, to finally drops back down at the end, reflecting that anger grows during moments of conflict, betrayal, or injustice in the middle of the movie, and drop at the end when there's triumph, resolution or humor. These elements are staples of nearly every genre, ensuring that joy and anger arcs remain largely consistent across diverse narratives. These emotions mirror Neo’s journey through struggle, revelation, and triumph.
 
-- **Disgust’s Steady Arc Across Genres:**  
+- **Disgust’s steady arc across genres:**  
   Unlike more dynamic emotions, **disgust** tends to play a subtler, secondary role in storytelling. Disgust generally follows an emotional arcs that grows in the middle of the movie, showing disgust as conflict and challenges arises in the middle of the movie. It often manifests in reaction to specific events—such as repugnant behavior or unsettling scenarios—rather than driving the story forward. It then falls off in the second half of the movie to finally have practically no disguts. This situational nature results in a stable arc for disgust across genres, with minimal variations  
 
-- **Narrative Archetypes and Consistency:**  
+- **Narrative archetypes and consistency:**  
   Across genres, many stories follow shared archetypes, such as the "hero's journey," which naturally incorporates anger, disgust, and joy. These emotions mark key stages in the narrative: anger during challenges, disgust when confronting unpleasant truths, and joy at the resolution of the conflict. Their consistent presence underscores their foundational role in storytelling.  
 
-### **3. Emotional Functions in Storytelling**  
+### **3. Emotional functions in storytelling**  
 
-- **Primary vs. Contextual Emotions:**  
+- **Primary vs. Contextual emotions:**  
   Neo finds that motions like anger, joy, and disgust serve as "primary emotions", essential for driving the plot and defining key narrative moments. On the other hand, fear, sadness, and surprise act as "contextual emotions," their intensity and role dictated by the genre’s tone and purpose.  
 
-- **Meeting Audience Expectations:**  
-  Audience expectations also play a significant role in shaping emotional arcs. For example, Horror audiences anticipate fear and surprise, while Drama viewers expect a mix of sadness and joy. **Disgust**, meanwhile, serves as a versatile tool across genres, punctuating specific scenes without dominating the narrative.  
+- **Meeting audience expectations:**  
+  Audience expectations also play a significant role in shaping emotional arcs. For example, Horror audiences anticipate fear and surprise, while Drama viewers expect a mix of sadness and joy. Disgust, meanwhile, serves as a versatile tool across genres, punctuating specific scenes without dominating the narrative.  
 
 ### **Conclusion**  
 
 Much like Neo’s journey, the emotional arcs of movies reflect both universal truths and unique challenges. The universality of emotions like anger, joy, and disgust reflects their foundational role in storytelling, while the variability of emotions like fear, sadness, and surprise highlights the creative flexibility filmmakers employ to craft genre-specific narratives.
-
-As Neo steps out of the Matrix, he leaves us with a thought:
-
-“Storytelling is about choice—whether it’s the red pill or the blue, or how we shape emotions to tell tales that resonate. What’s your choice?”
 
 # Emotions and continents
 
@@ -160,12 +165,12 @@ As Neo steps out of the Matrix, he leaves us with a thought:
 
 Neo examines the heatmap of emotional intensity across continents, uncovering fascinating regional patterns:  
 
-- *Anger* is most intense in African, North Americans and Asian films, while more moderate in South American, European and Oceanian productions.  
-- *Disgust* stands out in African, European and South American films, with lower levels in Asian, North American and Oceanian cinema.
-- *Fear* remains consistent globally, slightly higher in European films but less prominent in North America.  
-- *Joy* is subdued overall, with a slight peak in Asian cinema and notably low intensity in North American films.  
-- *Sadness* is uniformly moderate to high across continents, with stronger presence in African and Asian productions.  
-- *Surprise* is the least intense emotion worldwide, showing minimal variation across regions.  
+- **Anger** is most intense in African, North Americans and Asian films, while more moderate in South American, European and Oceanian productions.  
+- **Disgust** stands out in African, European and South American films, with lower levels in Asian, North American and Oceanian cinema.
+- **Fear** remains consistent globally, slightly higher in European films but less prominent in North America.  
+- **Joy** is subdued overall, with a slight peak in Asian cinema and notably low intensity in North American films.  
+- **Sadness** is uniformly moderate to high across continents, with stronger presence in African and Asian productions.  
+- **Surprise** is the least intense emotion worldwide, showing minimal variation across regions.  
 
 Overall, African films exhibit high emotional intensity, North American films lean toward restraint, Asian cinema emphasizes contrasts with negative and positive emotions quite high, and European productions balance their emotional palette. These variations reflect cultural nuances in global storytelling.
 
@@ -173,25 +178,41 @@ Overall, African films exhibit high emotional intensity, North American films le
 
 Neo made it possible to also visualize this on a map for better understanding.
 
-rajouter graphe en fonction des différents continents, voir si arcs varient selon continent 
+<iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="110%" height="830" frameborder="0" style="max-width: 110%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
-Add oracle intro -->
+Neo dives into the emotional arcs across genres, this time examining variations by continent. The findings reveal fascinating contrasts:
 
+Some continents, such as **North America**, **Asia**, and **Europe** exhibit a more consistent emotional arc across genres for certain emotions such as joy, anger and disgust. These arcs closely resemble the average emotional trajectory observed when considering all continents combined, suggesting a stronger alignment with global storytelling trends. 
+
+In contrast, continents like **Africa**, **Oceania** and **South America**, display highly diverse emotional arcs that vary significantly between genres, even for emotions such as joy, anger and disgust. There is no single dominant pattern for each emotions; instead, the arcs shift dramatically depending on the storytelling style and thematic focus of each genre.   
+
+These results could be related to the lower number of movies in Oceania, South America, and Africa, which could explain the observed variations, but this also highlights how cultural influences shape emotional storytelling, with some regions embracing genre-specific emotional diversity and others leaning toward a unified narrative rhythm across genres.
+
+--- 
+
+**The Oracle appears, her calm yet cryptic demeanor radiating wisdom. She smiles knowingly and leans forward, speaking in her usual enigmatic tone:**  
+
+<iframe src="{{ site.baseurl }}/assets/images\Neo-and-The-Oracle-in-The-Matrix-Reloaded.png" width="100%" height="800" frameborder="0" style="max-width: 100%; border-left: 100px solid white;"></iframe>
+
+"Ah, you've come far in understanding emotions and stories. But let me ask you something new, something unexpected…" 
 ## **Do longer movies tell more complex emotional stories?**
 
-As Neo navigates through streams of data, this new question lingers in his mind. It resonates with him on a deeper level: 
+Her words hang like a riddle, challenging Neo to think deeper. She tilts her head, her smile widening, as if she already knows the answer—but leaves it for Neo to uncover. As Neo delves into streams of data, the Oracle's question lingers in his mind, pushing him to uncover its answer.
 
 Movies have the power to evoke a spectrum of emotions, from joy and sadness to anger and surprise. But does the length of a movie influence how complex its emotional journey can be? In this analysis, Neo explores whether longer movies, with runtimes exceeding 2 hours, exhibit more intricate emotional arcs compared to their shorter counterparts. By analyzing emotional metrics derived from sentiment analysis, Neo investigates the relationship between runtime and emotional storytelling.
 
 Neo, as usual, dives into the data with his characteristic curiosity, seeing the emotional journey of each movie as a code waiting to be cracked.
 
+### Calculating emotional etrics
+To quantify emotional complexity, Neo computed two key metrics for each movie:
 
+- **Standard deviation:** The variability of emotion intensity throughout the plot.
+- **Sum of absolute changes:** The cumulative magnitude of emotion shifts between consecutive timesteps.
 
 ## Results
+### Emotional complexity vs runtime
 
-### Emotional Complexity vs Runtime
-
-When comparing emotional complexity metrics (amplitude, standard deviation, and sum of absolute changes) between short and long movies, Neo observed that:
+When comparing emotional complexity metrics (standard deviation and sum of absolute changes) between short and long movies, Neo observed that:
 
 - Long movies showed slightly higher variability in emotional arcs, but the differences were modest.
 - Emotional complexity appeared to be influenced by factors beyond runtime, such as genre and storytelling style.
@@ -200,13 +221,12 @@ When comparing emotional complexity metrics (amplitude, standard deviation, and 
 
 These results were not enough for Neo to conclude that longer movies inherently have more variation in emotional arcs or a more complex storyline. He decided to dive deeper by analyzing each emotion individually.
 
-### Correlation Analysis
+### Correlation analysis
 Neo computed the correlation between runtime and emotional complexity metrics for each emotion:
 
 <iframe src="{{ site.baseurl }}/assets\plot\emotional_arcs_in_movies\correlation_emotional_variation.html" width="100%" height="600" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 The correlation varied depending on the emotion considered. The highest correlation was for disgust, suggesting that as the movie length increases, the variation in this emotion also increases, leading to more emotional complexity. There were notable differences in correlation for emotions like anger, disgust, joy, and neutral, while fear, sadness, and surprise showed very low correlation between runtime and emotional variation.
-
 
 The correlation was positive but weak (r ≈ 0.15), suggesting that while runtime contributes to emotional complexity, other narrative elements play significant roles.
 
@@ -214,25 +234,17 @@ Neo's analysis revealed that while longer movies tend to exhibit slightly more c
 Neo reflected on this, thinking about how a movie’s emotional depth cannot be reduced to just its runtime. There’s more to the emotional storytelling—something hidden in the layers of the plot, the pacing, and the way the characters evolve.
 
 ---
-But there it is, Neo’s analysis is done. He's finished—for now. Or is he?
-
-<iframe src="{{ site.baseurl }}/assets\images\Trinity.webp" width="50%" height="350" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
-Here comes Trinity. She’s not done yet. With a sharp look and a gun in hand, she’s demanding more. "Analysis. Do it by something other than genre. Now."
-
-Looks like Neo has no choice. He’s about to dive back in—whether he likes it or not. 
----
-
 Neo sits quietly, the faint hum of data streams echoing in the background, when Morpheus steps into the scene, his silhouette commanding attention. His voice is calm but laced with purpose.
 
 <iframe src="{{ site.baseurl }}/assets\images\large_landscape_175005.webp" width="100%" height="750" frameborder="0" style="max-width: 100%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 “Neo,” he says, holding out his hands, “this is the moment of choice. In my right hand, the **red pill**—a journey into the world of **K-Shape clustering**. You’ll embrace the dynamic nature of time-series patterns, finding clusters that capture the rhythm and evolution of emotional arcs."
-
 He pauses, shifting his gaze to the left. “In my left hand, the **blue pill**—**PCA clustering**. A method of elegant simplicity, reducing dimensions to their essence. Here, patterns emerge in a structured space, but you’ll miss the nuance of how emotions evolve moment by moment.”
 
 Morpheus steps closer, his eyes piercing. “Choose wisely. The **red pill** dives into complexity, embracing the chaos of storytelling arcs. The **blue pill** offers clarity, a streamlined view of emotional trends. Either way, the data will reveal its secrets—but only one path leads to the full depth of the narrative.”
 
 Neo hesitates, his gaze flicking between the two pills. What will he choose? The structured elegance of PCA clustering or the intricate adaptability of K-Shape clustering? The journey into emotional analysis awaits. 
+
 
 <div class="dropdown-buttons">
   <div class="dropdown-container-blue">
