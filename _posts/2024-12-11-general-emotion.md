@@ -202,10 +202,17 @@ Her words hang like a riddle, challenging Neo to think deeper. She tilts her hea
 Movies have the power to evoke a spectrum of emotions, from joy and sadness to anger and surprise. But does the length of a movie influence how complex its emotional journey can be? In this analysis, Neo explores whether longer movies, with runtimes exceeding 2 hours, exhibit more intricate emotional arcs compared to their shorter counterparts. By analyzing emotional metrics derived from sentiment analysis, Neo investigates the relationship between runtime and emotional storytelling.
 
 Neo, as usual, dives into the data with his characteristic curiosity, seeing the emotional journey of each movie as a code waiting to be cracked.
-## Results
-### Emotional Complexity vs Runtime
 
-When comparing emotional complexity metrics (amplitude, standard deviation, and sum of absolute changes) between short and long movies, Neo observed that:
+### 2. Calculating emotional etrics
+To quantify emotional complexity, Neo computed two key metrics for each movie:
+
+- **Standard deviation:** The variability of emotion intensity throughout the plot.
+- **Sum of absolute changes:** The cumulative magnitude of emotion shifts between consecutive timesteps.
+
+## Results
+### Emotional complexity vs runtime
+
+When comparing emotional complexity metrics (standard deviation and sum of absolute changes) between short and long movies, Neo observed that:
 
 - Long movies showed slightly higher variability in emotional arcs, but the differences were modest.
 - Emotional complexity appeared to be influenced by factors beyond runtime, such as genre and storytelling style.
