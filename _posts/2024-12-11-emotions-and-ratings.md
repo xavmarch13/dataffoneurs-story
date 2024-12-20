@@ -5,9 +5,8 @@ weight: 7
 date:   2024-12-11 11:08:25
 categories: emotions and ratings
 tags: featured
-image: assets/Plots/PlotsRatings/indiana-jones-great-circle-marquee.jpg
-image2: assets/Plots/PlotsRatings/indiana-jones-great-circle-marquee.jpg
-
+image: /assets/Plots/PlotsRatings/indiana-jones-great-circle-marquee.jpg
+image2: /assets/Plots/PlotsRatings/indiana-jones-great-circle-marquee.jpg
 
 ---
 By Dr. Henry “Indiana” Jones Jr
@@ -26,8 +25,7 @@ Our expedition will take us through treacherous territory as we attempt to decod
 I've brought along my finest archaeological tools - statistical analysis more precise than any ancient map, emotional measuring devices that would make even the most seasoned temple guardians raise an eyebrow, and years of experience in pattern recognition that's saved my life more times than I can count.
 
 So grab your statistical tools and emotional compasses, folks. We're about to venture into the heart of cinema's emotional temple, and I have a feeling this might be our most revealing expedition yet...
-## Indiana Jones and the map of movie success: following the emotional trail
-<br />
+
 
 Let's start our expedition by examining the basic terrain - the different genres that make up our cinematic landscape...
 
@@ -105,6 +103,7 @@ Then there's the **emotion transitions** counter - similar to counting the numbe
 
 And finally, **unique dominant emotions** is most straightforward of our tools, like my trusty whip. It simply counts how many different emotions take the lead throughout the film. It's like counting how many different types of challenges you face in an adventure - the more variety, the more interesting the journey.
 
+We can now perform a correlation between these four emotional diversity metrics and ratings: 
 
 <iframe src="{{ site.baseurl }}/assets/Plots/PlotsRatings/correlation_general_diversity.html" 
     width="100%" 
