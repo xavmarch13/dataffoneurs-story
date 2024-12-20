@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "7. Indiana Jones and the map of movie success: following the emotional trail"
-weight: 7
+title:  "Indiana Jones and the map of movie success: following the emotional trail"
+weight: 6
 date:   2024-12-11 11:08:25
 categories: emotions and ratings
 tags: featured
 image: /assets/Plots/PlotsRatings/indiana-jones-great-circle-marquee.jpg
 image2: /assets/Plots/PlotsRatings/indiana-jones-great-circle-marquee.jpg
-
+previous_post: /dataffoneurs-story/jekyll/update/2024/12/11/welcome-to-jekyll.html
 ---
 By Dr. Henry “Indiana” Jones Jr
 

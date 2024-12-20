@@ -81,6 +81,8 @@
                   -webkit-user-select: none;
                   touch-action: manipulation;
                 " onclick="location.href='{{ page.previous_post }}'">← Previous Post</button>
+              {% else %}
+                <div style="flex: 1;"></div> <!-- Filler to push the next button to the far right -->
               {% endif %}
               {% if page.next_post %}
                 <button class="nav-button" style="

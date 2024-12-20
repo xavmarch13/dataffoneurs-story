@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "1. Oppenheimer discovers sentiment analysis"
+title:  "Oppenheimer discovers sentiment analysis"
 weight:  2
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
