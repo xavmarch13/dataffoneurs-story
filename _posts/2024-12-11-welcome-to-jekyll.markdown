@@ -125,12 +125,10 @@ She stands, brushing invisible dust off her dress. “But that’s the thing abo
 ## **Conclusion: a chaotic, glittering reflection**
 
 
-As the projector dims, Nellie LaRoy takes center stage one last time. With a glimmer in her eye, she looks out over Hollywood’s skyline, the city that’s as chaotic, glamorous, and unpredictable as the movies themselves.
+“Movies are more than just stories,” she says. “They’re mirrors. They show us who we are, what we fear, and what we dream of. And me? I’ve danced through every emotion, every era. From silent screens to Technicolor dreams, from heartbreak to hope.”
 
-“Movies are more than just stories,” she says, a grin lighting up her face. “They’re mirrors. They show us who we are, what we fear, and what we dream of. And me? I’ve danced through every emotion, every era. From silent screens to Technicolor dreams, from heartbreak to hope.”
+She laughs, a spark of excitement in her eyes. “Here’s to the next chapter. I’m ready for it!”
 
-She spins, laughing, arms wide as though the party never ended. “Here’s to the next chapter, baby. Bring it on!”
-
-In the shadows, Indiana Jones tips his hat. “The adventure’s far from over.” And with that, Hollywood’s past and future collide, ready for the next great story to unfold.
+In the shadows, Indiana Jones tips his hat. “The adventure’s far from over.” And with that, Hollywood’s ready for the next great story.
 
 ---
