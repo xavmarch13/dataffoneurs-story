@@ -5,14 +5,10 @@ permalink: /about/
 title: false
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
-
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Dataffoneur is a group of five student.  We made this project as part of the EPFL course CS-401 Applied Data Analysis.
+The group is composed of:
+1. Florian Tanguy: florian.tanguy@epfl.ch
+2. Ines Altemir: ines.altermirmarinas@epfl.ch
+3. Alix Papadatos: alix.papadatos@epfl.ch
+4. Xavier Marchon: xmarchon@student.eth.ch
+5. Mathieu Sauser: mathieu.sauser@epfl.ch
