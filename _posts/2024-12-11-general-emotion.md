@@ -114,9 +114,9 @@ As Neo dives into the Matrix of Emotions, he uncovers patterns that reveal how d
 
 ### Visualizing emotional arcs by genre
 
-To visualize emotional trajectories, Neo plotted the normalized emotional arcs for each genre over 20 timesteps. 
+To visualize emotional trajectories, Neo plotted the normalized emotional arcs for each genre over 20 timesteps across all continents. 
 
-<iframe src="{{ site.baseurl }}/assets/plots_alix\continentvsgenres.html" width="110%" height="830" frameborder="0" style="max-width: 110%; display: block; margin-left:auto; margin-right: auto"></iframe>
+<iframe src="{{ site.baseurl }}/assets/plots_alix\emotionvsgenres.html" width="110%" height="830" frameborder="0" style="max-width: 110%; display: block; margin-left:auto; margin-right: auto"></iframe>
 
 ### The consistent rhythm of emotional arcs across genres    
 
