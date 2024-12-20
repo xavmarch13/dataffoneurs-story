@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "2. Neo's Journey Through Emotion: Uncovering Patterns in Film Sentiment"
+title:  "Neo's Journey Through Emotion: Uncovering Patterns in Film Sentiment"
 weight:  3
 categories: [Data Analysis, Sentiment Analysis, Movies]
 tags: featured
 image: /assets/images/xUtR9aTaqj4XTDDUgWwTrC.jpg
 image2: /assets/images/xUtR9aTaqj4XTDDUgWwTrC.jpg
 previous_post: /dataffoneurs-story/data analysis/sentiment analysis/movies/2024/12/11/how-to-get-emotions.html
-next_post: /dataffoneurs-story/jekyll/update/2024/12/12/sound-color-cinema.html
+next_post: /dataffoneurs-story/jekyll/update/2024/12/11/welcome-to-jekyll.html
 ---
 
 # The emotional journey

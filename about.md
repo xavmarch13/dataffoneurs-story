@@ -2,7 +2,6 @@
 layout: page
 title: About
 permalink: /about/
-title: false
 ---
 
 Dataffoneur is a group of five student.  We made this project as part of the EPFL course CS-401 Applied Data Analysis.

@@ -5,6 +5,8 @@ weight: 4
 categories: jekyll update
 image: /assets/plots_alix/babylon-2022.png
 header_image: /assets/plots_alix/babylon-2022.png
+previous_post: /dataffoneurs-story/data analysis/sentiment analysis/movies/2024/12/11/general-emotion.html
+next_post: /dataffoneurs-story/emotions/and/ratings/2024/12/11/emotions-and-ratings.html
 ---
 
 Hollywood, 1923. Picture this: a mansion bursting at the seams with jazz, drugs, and dancing—pure chaos, the kind that could only happen in Tinseltown. And in the middle of it all, like a firecracker waiting to explode, is Nellie LaRoy.
