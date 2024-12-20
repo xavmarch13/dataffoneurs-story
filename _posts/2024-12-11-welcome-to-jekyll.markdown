@@ -55,17 +55,25 @@ Those dazzling changes of the twenties made Nellie pause and think back to an ea
 
 ---
 
-## **A shadow of war: how WW1 reshaped fear and disgust**
+## **A shadow of war: how WW1 reshaped anger and disgust**
 
 Nellie is transported back to 1914—a time before her Hollywood reign. The world was at war, and cinema, still in its silent infancy, mirrored the chaos of a planet torn apart.
 
-“Fear and disgust were already there,” Nellie recalls. “But after the war? Oh, darling, they became something else.”
+The bar graph paints the picture loud and clear—anger and disgust took the spotlight, shifting dramatically between the two eras. “See that?” Nellie points with a wink. “Those two emotions, darling, they tell the real story of how the war reshaped cinema. Anger surged, disgust softened, and filmmakers knew exactly how to reflect the world’s turmoil on screen.”
+
+<iframe src="{{ site.baseurl }}/assets/plots_alix/mean_emotions_WW1.html" 
+    width="100%" 
+    height="600px" 
+    frameborder="0" 
+    scrolling="no" 
+    style="overflow: hidden; min-width: 800px; margin: 0; padding: 0; margin-bottom: 50px;">
+</iframe>
 
 1. **The decline of disgust:**
 Audiences had seen enough horror on the battlefields. When they turned to movies, they didn’t want grotesque reminders—they wanted hope, beauty, and escape. Filmmakers adjusted, dialing back disgust and turning their focus to more uplifting themes.
 
-2. **The rise of fear:**
-Fear, though? Fear took center stage. The war had introduced new anxieties—uncertainty, loss, and a destabilized world—and movies channeled that collective dread. Silent thrillers, survival stories, and suspenseful dramas reflected a world still reeling from the trauma of war.
+2. **The rise of anger:**
+But anger? Anger rose like wildfire. The war stirred deep frustration, loss, and a sense of injustice. Movies mirrored this surge, channeling collective rage into bold narratives filled with conflict, rebellion, and defiance. Anger became the emotional heartbeat of wartime cinema, as shown in the visualizations, where its mean score climbs dramatically.
 
 <iframe src="{{ site.baseurl }}/assets/plots_alix/impact_of_WW1_Before_1914.html" 
     width="100%" 
@@ -84,8 +92,6 @@ Fear, though? Fear took center stage. The war had introduced new anxieties—unc
 </iframe>
 
 “That’s the thing about movies,” Nellie says, her voice soft but knowing. “They don’t just tell stories—they carry the world’s scars. After the war, everything changed. Fear grew sharper, hope dimmed, and cinema reflected it all.”
-
-She flashes a grin, her energy returning. “Then sound and color burst in, and darling, it was like the movies finally came alive. Joy sparkled, fear roared, and disgust? Well, that faded like yesterday’s headlines.”
 
 She twirls, her laughter echoing. “And just when we thought we’d seen it all, history had more twists. Each upheaval, like 9/11, left its own mark...”
 
