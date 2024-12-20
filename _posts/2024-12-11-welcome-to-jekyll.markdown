@@ -7,20 +7,24 @@ image: /assets/plots_alix/babylon-2022.png
 header_image: /assets/plots_alix/babylon-2022.png
 ---
 
-In the early days of cinema, much like in Babylon where Nellie LaRoy danced her way into silent film stardom, movies were a feast for the eyes but not yet for the ears. The world of Hollywood was chaotic, glamorous, and ripe for innovation. Then came the turning points that changed everything: the introduction of color in 1922 and sound in 1927.  
+Hollywood, 1923. Picture this: a mansion bursting at the seams with jazz, drugs, and dancing—pure chaos, the kind that could only happen in Tinseltown. And in the middle of it all, like a firecracker waiting to explode, is Nellie LaRoy.
 
-These groundbreaking advancements didn’t just change how films were made; they revolutionized the emotional language of cinema. Joy, fear, and disgust—emotions that had already found a place on the silent screen—shifted in prominence.  
+“Get out of my way,” she shouts, kicking off her heels and leaping onto a table. “This is my night, my party, my Hollywood!” The crowd roars. Champagne rains from the ceiling. A trumpet blares somewhere in the background.
+
+Nellie wasn’t just crashing the party—she was the party. But what she didn’t know was that Hollywood’s own party was about to take a wild, chaotic turn. Because in this town, nothing stays the same for long.
 
 ---
 
 ## **The rise of joy: when movies learned to speak and shine**  
 
 
-Before 1922, emotions in films were conveyed through exaggerated gestures, silent stares, and title cards. Joy existed but was subdued—struggling to shine through the monochrome lens of silent cinema. Nellie’s analysis reveals how technological breakthroughs reshaped emotions like joy, fear, sadness, and surprise, reflecting both industry innovations and societal changes.
+The roaring twenties were a time of endless parties, glittering champagne, and for Nellie, reinvention—or at least, it was supposed to be. As color splashed across screens in 1922 and sound began filling theaters in 1927, Hollywood transformed almost overnight. But not everyone in Tinseltown could keep up with the times.
 
-1. **The advent of color (1922):** Color brought vibrancy to the screen, enabling filmmakers to portray happiness and optimism with unparalleled visual richness. This technological leap made emotions like joy more expressive and memorable.
+“Oh, those were dazzling years,” Nellie says, a bittersweet smile playing on her lips. “Color brought life to the screen, and sound… oh, the sound! It was like the movies had finally found their voice. But darling, not all voices were meant to be heard.”
 
-2. **The power of sound (1927):** Sound revolutionized storytelling by adding music, dialogue, and sound effects. It gave emotions a dynamic new dimension—joy became more uplifting, fear more chilling, and surprise more impactful through unexpected sounds and twists.
+The advent of color painted joy and optimism into every frame. Suddenly, emotions could leap off the screen in vibrant hues, making joy brighter, sadness deeper, and surprise even more electrifying. Then came sound, with its orchestras, dialogue, and the magic of hearing an actor’s voice for the first time. Fear grew sharper; laughter more infectious. But for Nellie, sound was no blessing—it was the beginning of the end.
+
+“You have no idea how hard it was, doll,” she admits. “One day, I’m a queen of the silent screen, dancing, pouting, stealing every scene. The next? Directors are screaming about microphones and lines to memorize. The magic was gone. And me? My voice just didn’t fit.”
 
 <iframe src="{{ site.baseurl }}/assets/plots_alix/impact_of_colour_Before_1922.html" 
     width="100%" 
@@ -39,19 +43,27 @@ Before 1922, emotions in films were conveyed through exaggerated gestures, silen
 </iframe>
 
 
-The graphs tell a clear story. Joy surged with the advent of sound and color, reflecting the industry’s ability to evoke happiness more effectively. Meanwhile, fear steadily grew as filmmakers began crafting suspenseful and thrilling narratives. Disgust declined during this period. Sadness and surprise also evolved, sound allowed for more nuanced portrayals of grief, while surprise gained depth through dramatic audio cues and sudden plot twists.
+The data, much like the world Nellie lived in, tells a brutal story. Joy surged as sound and color transformed the cinematic experience, but Nellie’s star dimmed. Directors wanted precision, not the raw, untamed energy she had built her career on.
 
-All these changes seemed to align, but Nellie suspected there was more at play. Could global events like World War I, with its unprecedented loss and societal upheaval, have shaped cinema's emotional tone? The stark shifts in fear and disgust hinted at storytelling influenced not just by technological innovation but by a society grappling with the scars of war. Nellie’s exploration into cinema's emotional evolution was far from over.
+“Oh, I tried to adapt,” Nellie insists, her voice breaking for just a moment. “But the rules had changed. They weren’t looking for wild hearts anymore—they wanted polish, grace, and a voice that could carry a melody. I was too much, darling. Too raw, too loud, too… me.”
+
+She pauses, glancing wistfully at the graphs that capture the emotional evolution of the era. “Sound brought audiences closer to characters, but it pushed me away. The rise of joy, fear, and surprise in movies? It came at the cost of stars like me.”
+
+Those dazzling changes of the twenties made Nellie pause and think back to an earlier time, before color and sound, when World War I cast its shadow over the silver screen and reshaped cinema in ways no one could have foreseen.
 
 ---
 
 ## **A shadow of war: how WW1 reshaped fear and disgust**
 
-During the silent film era, fear and disgust were already present, but something changed after World War I. Before the war, films often portrayed discomfort or grotesque imagery, reflecting audiences’ fascination with the new medium. However, after the war, the emotional tone shifted.
+Nellie is transported back to 1914—a time before her Hollywood reign. The world was at war, and cinema, still in its silent infancy, mirrored the chaos of a planet torn apart.
 
-1. **The decline of disgust**: Audiences had already witnessed unimaginable horrors during the war. Nellie’s analysis shows that filmmakers turned away from themes that evoked disgust, as viewers craved hope and escapism more than ever.
+“Fear and disgust were already there,” Nellie recalls. “But after the war? Oh, darling, they became something else.”
 
-2. **The rise of fear**: At the same time, fear became more dominant. The war introduced new anxieties—conflict, loss, and a destabilized world—and cinema reflected this. Suspenseful narratives and stories of survival became tools to mirror collective anxieties while also helping audiences process them.
+1. **The Decline of Disgust:**
+Audiences had seen enough horror on the battlefields. When they turned to movies, they didn’t want grotesque reminders—they wanted hope, beauty, and escape. Filmmakers adjusted, dialing back disgust and turning their focus to more uplifting themes.
+
+2. **The Rise of Fear:**
+Fear, though? Fear took center stage. The war had introduced new anxieties—uncertainty, loss, and a destabilized world—and movies channeled that collective dread. Silent thrillers, survival stories, and suspenseful dramas reflected a world still reeling from the trauma of war.
 
 <iframe src="{{ site.baseurl }}/assets/plots_alix/impact_of_WW1_Before_1914.html" 
     width="100%" 
@@ -69,17 +81,30 @@ During the silent film era, fear and disgust were already present, but something
     style="overflow: hidden; min-width: 800px; margin: 0; padding: 0; margin-bottom: -150px;">
 </iframe>
 
-Just like Nellie couldn’t adapt when sound took over Hollywood, the film industry had to adapt to a world changed by war. Fear became a new emotional anchor, reflecting a society still grappling with its trauma.
+“That’s the thing about movies,” Nellie says, her voice soft but knowing. “They don’t just tell stories—they carry the world’s scars. After the war, everything changed. Fear grew sharper, hope dimmed, and cinema reflected it all.”
+
+She flashes a grin, her energy returning. “Then sound and color burst in, and darling, it was like the movies finally came alive. Joy sparkled, fear roared, and disgust? Well, that faded like yesterday’s headlines.”
+
+She twirls, her laughter echoing. “And just when we thought we’d seen it all, history had more twists. Each upheaval, like 9/11, left its own mark...”
 
 ---
 
 ## **The diverging faces of sadness after 9/11**
 
-The emotional landscape of cinema shifted once again after the 9/11 attacks. Sadness, in particular, split into two distinct paths depending on the genre.
 
-1. **Family/Animation**: Sadness dropped sharply. Post-9/11, family and animated films became more uplifting, offering audiences optimism and comfort in a time of grief. Filmmakers understood that younger audiences needed hope, not reminders of real-world sadness.
+It’s the early 2000s, and Hollywood is teetering on the edge of a cliff. Then it happens: 9/11. The world is shattered. Nellie, now a legendary veteran of the silver screen, watches the news in stunned silence, the glitter of her golden years dimmed by the chaos unfolding on her TV.
 
-2. **Romance**: Sadness surged. Romance films leaned into themes of love, loss, and longing, providing a space for audiences to process their emotions. These films mirrored the collective grief of society but also offered catharsis through heartfelt stories of connection.
+“Everything changed,” she says, pacing her lush LA mansion, cigarette in hand. “You could feel it. The city, the people, it was like the party was over, and the hangover hit all at once.”
+
+But Hollywood? Hollywood adapts. And emotions, as always, lead the charge.
+
+“Sadness became… complicated,” Nellie muses, plopping onto a velvet couch, a drink in hand. “Two faces, honey. Two wildly different masks.”
+
+1. **Family/Animation:**
+“For the kiddos, sadness was out! No one wanted tear-streaked faces in the popcorn line. These movies became shiny, happy beacons of hope. Like a big ol’ hug when the world needed it most. Optimism everywhere—rainbows, singing animals, you name it.”
+
+2. **Romance:**
+“But romance? Oh, darling, it was a sobfest. Love stories weren’t just about boy-meets-girl anymore. They were about loss, about longing, about holding on to something—anything—when the ground beneath you crumbled. Romance films leaned into grief like never before. Catharsis, baby. Pure, unfiltered catharsis.”
 
 <iframe src="{{ site.baseurl }}/assets/plots_alix/before_after_911.html" 
     width="100%" 
@@ -89,10 +114,23 @@ The emotional landscape of cinema shifted once again after the 9/11 attacks. Sad
     style="overflow: hidden; min-width: 800px;">
 </iframe>
 
+Nellie stares at the graph, her lips pressing into a thoughtful line. “Sadness in romance surges? That’s the world grieving, trying to make sense of love and loss. And family films pulling back on the heavy stuff? Classic Hollywood, always trying to protect the kids from reality. Clever, I’ll give them that.”
+
+She exhales slowly, her gaze distant. “But reinvention... it’s not for everyone. Not for me. Sound took over, and suddenly, my world fell silent.” Nellie shrugs, a wistful smile forming. “Hollywood moved on. It always does.”
+
+She stands, brushing invisible dust off her dress. “But that’s the thing about movies—they carry on, telling new stories for new times. Even if some of us get left behind.”
+
 ---
 
-## **Conclusion: a story of innovation and emotion**
+## **Conclusion: A Chaotic, Glittering Reflection**
 
-Through this analysis, Nellie uncovered how cinema evolved alongside history. Sound and color brought joy to the screen, but war and tragedy left their mark, shifting emotions like fear, disgust, and sadness. Just like in *Babylon*, where the rise of sound reshaped everything, movies have always reflected the world around them—its beauty, its chaos, and its heart.
 
+As the projector dims, Nellie LaRoy takes center stage one last time. With a glimmer in her eye, she looks out over Hollywood’s skyline, the city that’s as chaotic, glamorous, and unpredictable as the movies themselves.
+
+“Movies are more than just stories,” she says, a grin lighting up her face. “They’re mirrors. They show us who we are, what we fear, and what we dream of. And me? I’ve danced through every emotion, every era. From silent screens to Technicolor dreams, from heartbreak to hope.”
+
+She spins, laughing, arms wide as though the party never ended. “Here’s to the next chapter, baby. Bring it on!”
+
+In the shadows, Indiana Jones tips his hat. “The adventure’s far from over.” And with that, Hollywood’s past and future collide, ready for the next great story to unfold.
+    
 ---
